@@ -1,0 +1,273 @@
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 9/20/2016 10:07:47 PM
+Event time (UTC): 9/20/2016 3:07:47 PM
+Event ID: 0a01b7c6f01849acac4b0ce48474ba82
+Event sequence: 8
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Process information:
+    Process ID: 6200
+    Process name: iisexpress.exe
+    Account name: DESKTOP-SRSS89B\hoangbnd
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Type 'ASP._Page_Cms_Data_Sites_netgo_shoji_Templates_Views_News_HomeRelease_template_cshtml' does not inherit from 'System.Web.WebPages.WebPage'.
+
+Request information:
+    Request URL: http://localhost:4567/Cms_Data/Sites/netgo-shoji/Templates/Views/News.HomeRelease/template.cshtml
+    Request path: /Cms_Data/Sites/netgo-shoji/Templates/Views/News.HomeRelease/template.cshtml
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 6
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at System.Web.UI.Util.CheckAssignableType(Type baseType, Type type)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map' was not found.
+Event time: 9/20/2016 10:26:50 PM
+Event time (UTC): 9/20/2016 3:26:50 PM
+Event ID: 5c9dedf67620439d807a3c851d3d2ddb
+Event sequence: 239
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map
+    Request path: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 34
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+Event time: 9/20/2016 10:29:21 PM
+Event time (UTC): 9/20/2016 3:29:21 PM
+Event ID: 1bd12bffe289434cb22c2bb54f5a01d8
+Event sequence: 290
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    Request path: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 18
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+Event time: 9/20/2016 10:50:15 PM
+Event time (UTC): 9/20/2016 3:50:15 PM
+Event ID: 6d73122a094849d99ecc4c4b57eaca51
+Event sequence: 464
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    Request path: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 47
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map' was not found.
+Event time: 9/20/2016 10:51:57 PM
+Event time (UTC): 9/20/2016 3:51:57 PM
+Event ID: 8de4843d43ed452e9d3dab89654452df
+Event sequence: 519
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map
+    Request path: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal.css.map
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 47
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+Event time: 9/20/2016 10:52:57 PM
+Event time (UTC): 9/20/2016 3:52:57 PM
+Event ID: b562252e3d994653bd15e9a0d0b03e93
+Event sequence: 602
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/4/ROOT-1-131188576318117198
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\netgo-shoji\web\
+    Machine name: DESKTOP-SRSS89B
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    Request path: /Cms_Data/Sites/netgo-shoji/Themes/Default/top_renewal_smartphone.css.map
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 49
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------

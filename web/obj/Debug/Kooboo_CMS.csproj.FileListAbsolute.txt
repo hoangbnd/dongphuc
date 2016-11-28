@@ -1,0 +1,12 @@
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\obj\Debug\Kooboo_CMS.csprojResolveAssemblyReference.cache
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\bin\Kooboo_CMS.dll.config
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\bin\Kooboo_CMS.dll
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\bin\Kooboo_CMS.pdb
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\obj\Debug\Kooboo_CMS.dll
+C:\Users\Xuannh\OneDrive\Projects\WaterPurifier\CMS\obj\Debug\Kooboo_CMS.pdb
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\bin\Kooboo_CMS.dll.config
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\bin\Kooboo_CMS.dll
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\bin\Kooboo_CMS.pdb
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\obj\Debug\Kooboo_CMS.csprojResolveAssemblyReference.cache
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\obj\Debug\Kooboo_CMS.dll
+C:\Users\Xuannh\Documents\Visual Studio 2013\Projects\expertrans\Web\obj\Debug\Kooboo_CMS.pdb

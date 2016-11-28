@@ -1,0 +1,58 @@
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 11/28/2016 11:55:20 PM
+Event time (UTC): 11/28/2016 4:55:20 PM
+Event ID: 4c7b0fc7cf804e17a33f02de7e6dedb2
+Event sequence: 10
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/16/ROOT-1-131248256951279405
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\projects\other\dongphuc\web\
+    Machine name: DESKTOP-SRSS89B
+
+Process information:
+    Process ID: 8520
+    Process name: iisexpress.exe
+    Account name: DESKTOP-SRSS89B\hoangbnd
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\projects\other\dongphuc\web\Cms_Data\Versions\Sites\netgo-shoji\Templates\Views\Bussiness.NavSidebar\2\template.cshtml(14): error CS1593: Delegate 'System.Func<Kooboo.CMS.Content.Models.TextContent,int,bool>' does not take 1 arguments
+
+Request information:
+    Request URL: http://localhost:2104/Cms_Data/Versions/Sites/netgo-shoji/Templates/Views/Bussiness.NavSidebar/2/template.cshtml
+    Request path: /Cms_Data/Versions/Sites/netgo-shoji/Templates/Views/Bussiness.NavSidebar/2/template.cshtml
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+
+Thread information:
+    Thread ID: 6
+    Thread account name: DESKTOP-SRSS89B\hoangbnd
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   at System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(String virtualPath, Type requiredBaseType)
+   at System.Web.WebPages.BuildManagerWrapper.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryManager.CreateInstanceOfType[T](String virtualPath)
+   at System.Web.WebPages.VirtualPathFactoryExtensions.CreateInstance[T](IVirtualPathFactory factory, String virtualPath)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath, IVirtualPathFactory virtualPathFactory)
+   at System.Web.WebPages.WebPageHttpHandler.CreateFromVirtualPath(String virtualPath)
+   at System.Web.WebPages.WebPageRoute.DoPostResolveRequestCache(HttpContextBase context)
+   at System.Web.WebPages.WebPageHttpModule.OnApplicationPostResolveRequestCache(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------

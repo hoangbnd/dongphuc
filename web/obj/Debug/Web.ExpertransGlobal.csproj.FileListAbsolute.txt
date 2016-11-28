@@ -1,0 +1,153 @@
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Web.ExpertransGlobal.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Web.ExpertransGlobal.pdb
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\obj\Debug\Web.ExpertransGlobal.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\obj\Debug\Web.ExpertransGlobal.pdb
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\obj\Debug\Web.ExpertransGlobal.csprojResolveAssemblyReference.cache
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Account.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Caching.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Common.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Common.Runtime.Dependency.Ninject.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Content.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Form.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Membership.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Search.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Sites.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Sites.TemplateEngines.Razor.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Toolkit.Controls.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Toolkit.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.CMS.Web.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Kooboo.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Ninject.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Ionic.Zip.Reduced.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.AspNet.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Lucene.Net.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Lucene.Net.Contrib.Highlighter.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\HtmlAgilityPack.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Newtonsoft.Json.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\dotless.Core.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\CookComputing.XmlRpcV2.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DiffPlex.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.OAuth.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.Core.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\DotNetOpenAuth.OpenId.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\System.Net.Http.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\log4net.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Org.Mentalis.Security.Cryptography.dll
+F:\VGROUP-2015\M8\ExpertransGlobal\Web\bin\Mono.Math.dll
+F:\VGROUP-2015\M10\batdongsan\Web\obj\Debug\Web.ExpertransGlobal.csprojResolveAssemblyReference.cache
+F:\VGROUP-2015\M10\batdongsan\Web\obj\Debug\Web.ExpertransGlobal.dll
+F:\VGROUP-2015\M10\batdongsan\Web\obj\Debug\Web.ExpertransGlobal.pdb
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Web.ExpertransGlobal.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Web.ExpertransGlobal.pdb
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Account.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Caching.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Common.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Common.Runtime.Dependency.Ninject.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Content.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Form.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Membership.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Search.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Sites.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Sites.TemplateEngines.Razor.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Toolkit.Controls.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Toolkit.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.CMS.Web.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Kooboo.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Ninject.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Ionic.Zip.Reduced.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.AspNet.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Lucene.Net.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Lucene.Net.Contrib.Highlighter.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\HtmlAgilityPack.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Newtonsoft.Json.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\dotless.Core.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\CookComputing.XmlRpcV2.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DiffPlex.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.OAuth.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.Core.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\DotNetOpenAuth.OpenId.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\System.Net.Http.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\log4net.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Org.Mentalis.Security.Cryptography.dll
+F:\VGROUP-2015\M10\batdongsan\Web\bin\Mono.Math.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Web.ExpertransGlobal.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Web.ExpertransGlobal.pdb
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Account.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Caching.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Common.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Common.Runtime.Dependency.Ninject.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Content.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Form.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Membership.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Search.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Sites.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Sites.TemplateEngines.Razor.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Toolkit.Controls.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Toolkit.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.CMS.Web.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Kooboo.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Ninject.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Ionic.Zip.Reduced.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Lucene.Net.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Lucene.Net.Contrib.Highlighter.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\HtmlAgilityPack.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Newtonsoft.Json.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\dotless.Core.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\CookComputing.XmlRpcV2.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DiffPlex.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.Core.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\System.Net.Http.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\log4net.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\bin\Mono.Math.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\obj\Debug\Web.ExpertransGlobal.csprojResolveAssemblyReference.cache
+C:\Users\hoadv\Desktop\valencia\code\Web\obj\Debug\Web.ExpertransGlobal.dll
+C:\Users\hoadv\Desktop\valencia\code\Web\obj\Debug\Web.ExpertransGlobal.pdb
+D:\Projects\Mik Valencia Garden\code\Web\bin\Web.ExpertransGlobal.dll.config
+D:\Projects\Mik Valencia Garden\code\Web\bin\Web.ExpertransGlobal.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Web.ExpertransGlobal.pdb
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Account.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Caching.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Common.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Common.Runtime.Dependency.Ninject.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Content.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Form.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Membership.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Search.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Sites.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Sites.TemplateEngines.Razor.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Toolkit.Controls.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Toolkit.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.CMS.Web.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Kooboo.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Ninject.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Ionic.Zip.Reduced.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.AspNet.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Lucene.Net.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Lucene.Net.Contrib.Highlighter.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\HtmlAgilityPack.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Newtonsoft.Json.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\dotless.Core.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\CookComputing.XmlRpcV2.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DiffPlex.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.OAuth.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.Core.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\DotNetOpenAuth.OpenId.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\System.Net.Http.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\log4net.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Org.Mentalis.Security.Cryptography.dll
+D:\Projects\Mik Valencia Garden\code\Web\bin\Mono.Math.dll
+D:\Projects\Mik Valencia Garden\code\Web\obj\Debug\Web.ExpertransGlobal.csprojResolveAssemblyReference.cache
+D:\Projects\Mik Valencia Garden\code\Web\obj\Debug\Web.ExpertransGlobal.dll
+D:\Projects\Mik Valencia Garden\code\Web\obj\Debug\Web.ExpertransGlobal.pdb
