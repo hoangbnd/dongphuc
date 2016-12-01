@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!--Fonts-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--Animation-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+    <!--<link rel="stylesheet" href="css/jquery.mmenu.all.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <div class="row">
+
+            <!--header-->
+            <div id="header" class="header">
+                <!--header-top-->
+                <div class="header-top bg-blue-1">
+                    <ul class="hotline-header ">
+                        <li><a href="tel:1900545546">Mua hàng: 1900 545 546</a></li>
+                        <li><a href="tel:0963649191">Hotline: 0963 64 9191</a></li>
+                        <li><a href="tel:1900545545">CSKH: 1900 545 545</a></li>
+                        <li><a class="blink-color" href="/#">Xem hệ thống 39 trung tâm điện máy</a></li>
+                    </ul>
+
+                    <ul class="language pull-right">
+                        <li><a href="#">VN</a></li>
+                        <li><a href="#">EN</a></li>
+                    </ul>
+                </div>
+                <!--/header-top-->
+                <!--navigation-->
+                <div class="navigation bg-blue">
+                    <nav class="navbar">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#"><img src="https://lib.trananh.com.vn/img/logo.png" /></a>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav pull-right">
+                                <li class="active">
+                                    <a href="#">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#">Review sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kinh nghiệm hay</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quà tặng Nhật Bản</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tuyển dụng</a>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+                <!--/navigation-->
+                <!--support-header-->
+                <div class="support-header">
+                    <ul class="text-center">
+                        <li>
+                            <span class="sup-a"></span>
+                            <a href="#">Dịch vụ đột phá</a>
+                        </li>
+                        <li>
+                            <span class="sup-b"></span>
+                            <a href="#">Trả góp ưu đãi</a>
+                        </li>
+                        <li>
+                            <span class="sup-c"></span>
+                            <a href="#">Facebook</a>
+                        </li>
+                        <li>
+                            <span class="sup-d"></span>
+                            <a href="#">Truyền hình Trần Anh</a>
+                        </li>
+                        <li>
+                            <span class="sup-e"></span>
+                            <a href="#">Mua chung</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/support-header-->
+            </div>
+            <!--/header-->
+
+            <!--section-list-product-menu-->
+            <div class="section-list-product-menu">
+                <!--category-->
+                <div class="category bg-blue">
+                    <div class="row row-fix">
+                        <div class="col-md-2 col-fix">
+                            <a class="product-cate text-uppercase text-white" title="Trang chủ" href="#">
+                                <i class="fa fa-bars" aria-hidden="true"></i>
+                                Danh mục sản phẩm
+                            </a>
+                        </div>
+                        <div class="col-md-7 col-fix">
+                            <div class="search-box">
+                                <input type="text" class="form-control" id="txtSearch" placeholder="Từ khóa tìm kiếm..." onkeypress="if (event.keyCode == 13) document.getElementById('btnSearch').click();" onkeyup="searchSuggest(event);" autocomplete="off">
+                                <button id="btnSearch" class="btn searchbtn text-blue" type="button" >
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/category-->
+                <!--category-->
+                <div class="menu-banner-video">
+                    <div class="row row-fix">
+                        <div class="col-md-2 col-fix">
+                            <ul class="flexy-menu orange vertical" id="hidden" style="display: block;">
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/dien-lanh-cid388" title="Điện lạnh tại Trần Anh">Điện lạnh</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-lanh-cid388" class="menu-top-red" title="Điện lạnh tại Trần Anh">
+                                                Sản phẩm điện lạnh</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-lanh/tu-lanh-cid399" class="menu-top-red" title="Tủ lạnh chính hãng tại Trần Anh">
+                                                Tủ lạnh theo hãng</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-lanh/may-giat-cid404" title="Máy giặt chính hãng tại Trần Anh" class="menu-top-red">Máy giặt theo hãng</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-lanh/dieu-hoa-cid537" title="Điều hòa chính hãng tại Trần Anh" class="menu-top-red">Điều hòa theo hãng</a>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/do-gia-dung-cid390" title="Đồ gia dụng tại Trần Anh">Đồ gia dụng</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner list3">
+                                            <a href="/do-gia-dung-cid390" class="menu-top-red" title="Đồ dùng gia đình tại Trần Anh">
+                                                Đồ dùng gia đình</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner list3">
+
+
+                                            <a href="/do-gia-dung-cid390" title="Đồ dùng nhà bếp tại Trần Anh" class="menu-top-red">
+                                                Đồ dùng nhà bếp</a>
+                                        </div>
+                                        <div class="flexy-menu-inner list3">
+                                            <a href="/do-gia-dung/quat-mat-asia-cid408-pr0-br289" title="Quạt phun sương Sunhouse">Quạt phun sương Sunhouse</a>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/dien-tu-am-thanh-cid389" title="Điện tử âm thanh tại Trần Anh">Điện tử &amp; Âm thanh</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-tu-am-thanh/tivi-led-cid533" class="menu-top-red" title="Tivi LED bán tại Trần Anh">
+                                                Tivi LED</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-tu-am-thanh/tivi-3d-smart-cid1103" class="menu-top-red" title="Tivi 3D Smart chính hãng tại Trần Anh">
+                                                Tivi 3D/Smart </a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-tu-am-thanh/tivi-ultra-hd-cid1105" class="menu-top-red" title="Tivi Ultra HD tại Trần Anh">
+                                                Tivi Ultra HD</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-tu-am-thanh-cid389" class="menu-top-red" title="Sản phẩm điện tử khác tại Trần Anh">
+                                                Sản phẩm điện tử khác</a>
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/dien-thoai-cid12">
+                                    Điện thoại</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-thoai/dien-thoai-di-dong-cid338" class="menu-top-red" title="Điện thoại di động chính hãng tại Trần Anh">
+                                                Điện thoại di động</a>
+                                            <a href="/dien-thoai/dien-thoai-di-dong-samsung-cid338-pr0-br121" title="Điện thoại Samsung">
+                                                Điện thoại Samsung</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-thoai/dien-thoai-di-dong-gionee-cid338-pr0-br467" title="Điện thoại GIONEE">
+                                                Điện thoại GIONEE</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-thoai/phu-kien-dien-thoai-cid328" class="menu-top-red" title="Phụ kiện điện thoại chính hãng">
+                                                Phụ kiên điện thoại</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/dien-thoai/dien-thoai-co-dinh-cid339" class="menu-top-red" title="Điện thoại cố định tại Trần Anh">
+                                                Điện thoại cố định</a>
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/thiet-bi-so-cid562" title="Kỹ thuật số">Kỹ thuật số</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/ky-thuat-so/may-anh-so-cid8" class="menu-top-red" title="Máy Ảnh Giá Rẻ phân phối tại Trần Anh">
+                                                Máy ảnh số</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/ky-thuat-so/may-quay-sony-cid68-pr0-br155" title="Máy quay Sony">Máy quay
+                                                Sony</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/thiet-bi-so-cid562" class="menu-top-red" title="Phụ kiện máy ảnh">Phụ
+                                                kiện máy ảnh</a>
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/laptop-tablet/laptop-cid9" title="Laptop chính hãng">Laptop</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/laptop-tablet/laptop-cid2" class="menu-top-red" title="Laptop tại Trần Anh">
+                                                Laptop theo hãng</a>
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/laptop-tablet/tablet-cid1142" title="Máy tính bảng giá rẻ">Tablet</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner list3">
+                                            <a href="/laptop-tablet/tablet-cid600" class="menu-top-red" title="Tablet chính hãng tại  Trần Anh">
+                                                Máy tính bảng theo hãng</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner list3">
+                                            <a href="/laptop-tablet/phu-kien-tablet-may-tinh-bang--cid1055" class="menu-top-red" title="Phụ kiện Tablet">Phụ kiện Tablet</a>
+
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/may-tinh-linh-kien-cid10" title="Máy tính linh kiện chính hãng">Máy tính &amp; Linh kiện</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/may-tinh-linh-kien/may-tinh-de-ban-cid3" class="menu-top-red" title="Máy tính để bàn - PC">
+                                                Máy tính để bàn - PC</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/may-tinh-linh-kien/san-pham-game--net-cid1168" class="menu-top-red" title="Sản phẩm Game - Net">Sản phẩm Game - Net</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/may-tinh-linh-kien-cid10" class="menu-top-red" title="Linh kiện máy tính chính hãng tại Trần Anh">
+                                                Linh kiện máy tính</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/may-tinh-linh-kien/man-hinh-may-tinh-cid28" class="menu-top-red" title="Màn hình máy tính">
+                                                Màn hình máy tính</a>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate"></span><a href="/thiet-bi-van-phong-cid5" title="Thiết bị văn phòng">Thiết bị văn phòng</a>
+                                    <ul class="flexy-menu-box" style="display: none;">
+                                        <div class="flexy-menu-inner">
+                                            <a href="/thiet-bi-van-phong/may-in-cid26" class="menu-top-red" title="Máy in - Printer">
+                                                Máy in - Printer</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/thiet-bi-van-phong/may-chieu-cid24" class="menu-top-red" title="Máy chiếu - Projector">
+                                                Máy chiếu - Projector</a>
+
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/thiet-bi-van-phong/thiet-bi-mang-cid101" class="menu-top-red" title="Thiết bị mạng - Network">
+                                                Thiết bị mạng - Network</a>
+                                            <a href="/thiet-bi-van-phong/ups-bo-luu-dien-cid38-pr0-br0-at127-av520" title="UPS Online">
+                                                UPS Online</a>
+                                        </div>
+                                        <div class="flexy-menu-inner">
+                                            <a href="/thiet-bi-van-phong/thiet-bi-van-phong-cid5" class="menu-top-red" title="Thiết bị văn phòng">
+                                                Thiết bị văn phòng khác</a>
+                                            <a href="/thiet-bi-van-phong/may-fax-cid1065" title="Máy Fax">Máy Fax</a>
+                                            <a href="/thiet-bi-van-phong/san-pham-smart-home-cid346" class="menu-top-red" title="Sản phẩm Smart Home">Sản phẩm Smart Home</a>
+                                        </div>
+                                    </ul>
+                                </li>
+                                <li class="flexymenuli" style=""><span class="icon-cate mg-left"></span><a class="nostyle" href="/khuyen-mai-tran-anh.htm">CT khuyến mại</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-7 col-fix">
+                            <div class="owl-carousel">
+                                <div class="item">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/22/standee.jpg" />
+                                </div>
+                                <div class="item">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/23/tragop_banner.jpg" />
+                                </div>
+                                <div class="item">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/26/thevietcombank1.jpg"/>
+                                </div>
+                                <div class="item"><img src="https://slide.trananh.com.vn/trananh/2016/11/25/black_friday2016_mach.jpg"/></div>
+                                <div class="item">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/22/05_4k-hdr-android-hanger-100x50cm(2).jpg" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-fix hidden-md hidden-sm hidden-xs">
+                            <div class="video-top">
+                                <a href="#">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/29/300x187.gif" id="ctl00_rptTVC_ctl00_imgTVC" class="img-thumbnail" alt="Trần Anh khuyến mại hàng tuần giá sốc" />
+                                </a>
+
+                                <a href="#" target="_blank">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/24/bannerweb_chucmungtrananhphutoidanang.jpg" class="img-thumbnail" />
+                                </a>
+                                <a href="#" target="_blank">
+                                    <img src="https://slide.trananh.com.vn/trananh/2016/11/24/banner-tuyendung(1).jpg" class="img-thumbnail" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/category-->
+
+            </div>
+            <!--/section-list-product-menu-->
+
+            <!--section-list-product-->
+            <div class="section-list-product">
+                <div class="product-list">
+
+                    <div class="title-product bg-color-white">
+                        <div class="row row-fix">
+                            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-fix">
+                                <div class="title">
+                                    <a href="#">ĐIỆN TỬ & ÂM THANH</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-10 col-md-9 col-sm-9 col-fix hidden-xs">
+                                <div class="title-list-product">
+                                    <ul>
+                                        <li><a href="#" title="Điện tử âm thanh bán chạy tại Trần Anh">Điện tử âm thanh bán chạy</a></li>
+                                        <li><a href="#" title="Điện tử âm thanh mới tại Trần Anh">Điện tử âm thanh mới</a></li>
+                                        <li><a href="#" title="Điện tử âm thanh khuyến mại tại Trần Anh">Điện tử âm thanh khuyến mại</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-fix">
+                        <div class="row bg-white row-fix">
+
+                            <div class="info-card">
+
+                                <div class="col-lg-15 col-md-3 col-sm-2 col-xs-2 col-fix product-item">
+                                    <div class="fixed-image owl-item">
+                                        <a href="#" title="Tivi LED Toshiba 40L3650 Full HD 40inch">
+                                            <img class="lazy" src="https://img.trananh.com.vn/trananh/2016/07/25/tivi-led-toshiba-40l3650-full-hd-40inch.jpg.150.150.cache" >
+                                        </a>
+                                        <div class="ico-promotion">+ Khuyến mại</div>
+                                    </div>
+                                    <div class="product-name">
+                                        <a href="#">Tivi LED Toshiba 40L3650 Full HD 40inch</a>
+                                    </div>
+                                    <b>
+                                        Giá niêm yết: 6.790.000₫
+                                    </b>
+                                    <small class="real-price">
+                                        6.790.000₫
+                                    </small>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="row hidden-lg hidden-md mgTop mgBottom">
+                        <span class="title-tag-m">Tivi</span>
+                        <a href="/dien-tu-am-thanh/tivi-3dsmart-sony-cid1103-pr0-br155/?od=ton_des" title="Tivi Sony" class="tag-m">Sony</a>
+                        <a href="/dien-tu-am-thanh/tivi-3dsmart-samsung-cid1103-pr0-br121/?od=ton_des" title="Tivi Samsung" class="tag-m">Samsung</a>
+                        <a href="/dien-tu-am-thanh/tivi-3dsmart-lg-cid1103-pr0-br120/?od=ton_des" title="Tivi LG" class="tag-m">LG</a>
+                        <a href="/dien-tu-am-thanh/tivi-3dsmart-panasonic-cid1103-pr0-br154/?od=ton_des" title="Tivi Panasonic" class="tag-m">Panasonic</a>
+                        <a href="/dien-tu-am-thanh/tivi-led-tcl-cid533-pr0-br253/?od=ton_des" title="Tivi TCL" class="tag-m">TCL</a>
+                        <a href="/dien-tu-am-thanh-cid389" title="Điện tử âm thanh" class="tag-m">Tất cả</a>
+                    </div>
+                </div>
+            </div>
+            <!--/section-list-product-->
+
+        </div>
+    </div>
+    <!-- /container -->
+<!-- JQUERY -->
+<!--<script src="js/modernizr-2.8.3-respond-1.4.2.min.js"></script>-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!--<script src="js/jquery.mmenu.min.all.js"></script>-->
+<script src="js/site.js"></script>
+</body>
+</html>
