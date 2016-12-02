@@ -324,6 +324,80 @@ body{
     width: 32px;
 }
 
+/*****************footer*********************/
+.footer-top{
+    display: inline-block;
+    padding: 20px 0;
+    width: 100%;
+}
+.title-info {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.title-all {
+    color: #105caa;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.icon-arr {
+    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -57px -96px;
+    display: block;
+    float: left;
+    height: 14px;
+    width: 4px;
+}
+.footer-top ul li a {
+    color: #fff!important;
+    line-height: 20px;
+    padding: 0 5px;
+}
+.list-agency{
+    padding: 20px 0;
+}
+
+.list-agency .well{
+    background: #fff;
+    border-radius: 0;
+}
+.btn-agency{
+    width: 100%;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    background: #f1f1f1;
+}
+.tit-mart {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 7px 0;
+}
+.add-mart {
+    height: 35px;
+}
+.map-mart a {
+    margin: 5px 5px 5px 0;
+    color: #105caa!important;
+}
+.no-border-top {
+    border-top: medium none!important;
+}
+.border-rb {
+    border-right: 1px solid #f1f1f1;
+}
+
+.copyright {
+    border-bottom: 5px solid #105caa;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
 /*****************list product menu*********************/
 .product-cate{
     line-height: 38px;
@@ -397,6 +471,35 @@ body{
     display: block;
     color: #000;
 }
+
+.flexy-menu ul, .flexy-menu ul li ul {
+    display: none;
+    list-style: outside none none;
+    padding: 0;
+    position: absolute;
+    z-index: 99999;
+}
+.flexy-menu.vertical ul {
+    left: 100%;
+    top: 0;
+}
+.flexy-menu-inner {
+    float: left;
+    height: 300px;
+    width: 170px;
+}
+.flexy-menu-box {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eaeaea;
+    box-shadow: none;
+    display: none;
+    height: 388px;
+    margin-left: 5px!important;
+    margin-top: -1px!important;
+    width: 685px!important;
+}
+
+
 ul.flexy-menu li.flexymenuli span.icon-cate{background:rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll 0 0;display:block;float:left;height:24px;margin:5.5px;width:24px}
 ul.flexy-menu li.flexymenuli:nth-child(2) span.icon-cate{background-position:0 -24px}
 ul.flexy-menu li.flexymenuli:nth-child(3) span.icon-cate{background-position:0 -48px}
@@ -493,6 +596,7 @@ ul.flexy-menu li.flexymenuli:nth-child(10) span.icon-cate{background-position:0 
 
 .product-list{
     margin-top:5px;
+    display: inline-block;
 }
 .title {
     background: #105caa none repeat scroll 0 0;
@@ -536,7 +640,7 @@ ul.flexy-menu li.flexymenuli:nth-child(10) span.icon-cate{background-position:0 
     font-size: 11px;
     position: absolute;
     right: 25px;
-    top: 35%;
+    top: 30%;
     background-color: #ed1c2a;
     color: #fff;
     padding: 3px;
@@ -587,6 +691,15 @@ ul.flexy-menu li.flexymenuli:nth-child(10) span.icon-cate{background-position:0 
     text-shadow: 0 2px 0 #e9e9e9;
     height: 32px;
 }
+
+.product-item>div{
+    border-right: 1px solid #f1f1f1;
+}
+.product-item:last-child>div {
+    border: none;
+}
+
+
 
 /***************key frame******************/
 @-webkit-keyframes st {

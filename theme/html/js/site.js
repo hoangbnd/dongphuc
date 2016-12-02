@@ -27,6 +27,22 @@ $(document).ready(function () {
    //     $menuApi.close();
    // });
 
+    var $myGroup = $('.list-agency');
+    $myGroup.on('show.bs.collapse','.collapse', function() {
+        $myGroup.find('.collapse.in').collapse('hide');
+    });
+
+    $('.flexymenuli').each(function() {
+        $(this).mouseover(function() {
+            console.log('overrr');
+            $(this).find('.flexy-menu-box').css('display', 'block');
+        });
+        $(this).mouseout(function() {
+            console.log('out');
+            $(this).find('.flexy-menu-box').css('display', 'none');
+        });
+    });
+
     responsive();
 });
 
