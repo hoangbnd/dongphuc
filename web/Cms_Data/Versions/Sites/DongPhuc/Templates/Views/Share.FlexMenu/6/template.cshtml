@@ -1,0 +1,50 @@
+﻿<!--section-list-product-menu-->
+<div class="section-list-product-menu">
+  <!--category-->
+  <div class="category bg-blue">
+    <div class="row row-fix">
+      <div class="col-md-2 col-fix">
+        <div class="product-cate text-uppercase text-white" id="flex-menu-btn" title="Trang chủ">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          Danh mục sản phẩm
+          
+           @if(ViewBag.Parent != null){
+            <ul class="hidden-version flexy-menu orange vertical" id="hidden">
+              @foreach(var parent in ViewBag.Parent){
+                <li class="flexymenuli">
+                   <span class="icon-cate"></span>
+                   <a href="@parent.Url" title="@parent.Title">@parent.Title</a>
+                    @{
+                     var child = ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("ParentUUID", parent.UUID).OrderBy("SortBy");
+              
+                    }
+                    @if(child != null && ((Kooboo.CMS.Content.Query.TextContentQuery)child).Any()){
+                      <ul class="flexy-menu-box">
+                        @foreach(var item in child){
+                            <div class="flexy-menu-inner">
+                              <a href="@item["Url"]" title="@item["Title"]" class="menu-top-red">@item["Title"]</a>
+                            </div>
+                        }
+                      </ul>
+                    }
+                     
+                 </li>
+              }
+            </ul>
+          }
+        </div>
+      </div>
+      <div class="col-md-7 col-fix">
+        <div class="search-box">
+          <input type="text" class="form-control" id="txtSearch" placeholder="Từ khóa tìm kiếm..." autocomplete="off">
+          <button id="btnSearch" class="btn searchbtn text-blue" type="button" >
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/category-->
+
+
+</div>

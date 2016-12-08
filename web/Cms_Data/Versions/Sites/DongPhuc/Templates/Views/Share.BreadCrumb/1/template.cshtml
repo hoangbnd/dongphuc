@@ -1,0 +1,26 @@
+﻿@{
+
+  string title = Page_Context.Current.ContentTitle.Trim();
+  if (string.IsNullOrEmpty(Page_Context.Current.ContentTitle))
+  {
+    title = MenuHelper.Current().LinkText;
+  }
+}
+<div class="breadcrumbs-wrapper">
+  <ol class="breadcrumb">
+    @if (MenuHelper.Breadcrumb().Count() > 1)
+    {
+      foreach (var item in MenuHelper.Breadcrumb())
+      {
+        <li>@Html.FrontHtml().PageLink(item.ContentTitle ?? item.LinkText, item.FullName)</li>
+      }
+    }
+    else if (MenuHelper.Breadcrumb().Count() == 1)
+    {
+      <li>
+        <a href="">@("Trang chủ".Label()) </a>
+      </li>
+    }
+    <li class="active">@(Page_Context.Current.ContentTitle ?? MenuHelper.Current().LinkText)</li>
+  </ol>
+</div>

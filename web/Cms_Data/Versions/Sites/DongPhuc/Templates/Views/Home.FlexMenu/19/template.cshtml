@@ -1,0 +1,23 @@
+﻿@if(ViewBag.Parent != null){
+	<ul class="flexy-menu orange vertical" id="hidden">
+      @foreach(var parent in ViewBag.Parent){
+      	<li class="flexymenuli">
+           <span class="icon-cate"></span>
+           <a href="@parent.Url" title="@parent.Title">@parent.Title</a>
+          	@{
+          	 var child = ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("ParentUUID", parent.UUID).Take(10);
+            }
+            @if(child != null && ((TextContent[])child).Any()){
+              <ul class="flexy-menu-box">
+                @foreach(var item in child){
+                	<div class="flexy-menu-inner">
+                      <a href="@item["Url"]" title="@item["Title"]" class="menu-top-red">@item["Title"]</a>
+                    </div>
+                }
+              </ul>
+            }
+             
+         </li>
+      }
+    </ul>
+}

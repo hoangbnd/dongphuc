@@ -1,0 +1,254 @@
+﻿<VersionInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Content.Versioning">
+	<CommitUser>admin</CommitUser>
+	<UtcCommitDate>2016-12-05T15:07:12.6219126+07:00</UtcCommitDate>
+	<TextContent xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserKey</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">TIVI-LED-TOSHIBA-40L3650-FULL-HD-40INCH</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Id</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcCreationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-05T15:07:12.6219126+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcLastModificationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-05T15:07:12.6219126+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UUID</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">JA2JWLYNARWJ8L4K</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Repository</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">DongPhuc_DB</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>FolderName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Product~Product</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SchemaName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Product</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Name</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">TIVI LED TOSHIBA 40L3650 FULL HD 40INCH</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Url</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">tivi-led</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Thumbnail</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">/Cms_Data/Contents/DongPhuc_DB/Media/Product/Tivi/tivi-led-toshiba-40l3650-full-hd-40inch.jpg</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Thumbnails</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">/Cms_Data/Contents/DongPhuc_DB/Media/Product/Tivi/tivi-led-toshiba-40l3650-full-hd-40inch-2-.jpg|/Cms_Data/Contents/DongPhuc_DB/Media/Product/Tivi/tivi-led-toshiba-40l3650-full-hd-40inch-3-.jpg|/Cms_Data/Contents/DongPhuc_DB/Media/Product/Tivi/tivi-led-toshiba-40l3650-full-hd-40inch-4-.jpg|/Cms_Data/Contents/DongPhuc_DB/Media/Product/Tivi/tivi-led-toshiba-40l3650-full-hd-40inch.jpg</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Manufacturer</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Toshiba</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Guarantee</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">1 năm</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Price</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:decimal">20000000</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Description</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">&lt;p&gt;- C&amp;ocirc;ng nghệ xử l&amp;yacute; h&amp;igrave;nh ảnh CEVO ENGINE mang đến h&amp;igrave;nh ảnh trung thực nhất;&lt;/p&gt;
+&lt;p&gt;- Chức năng khuếch đại t&amp;iacute;n hiệu s&amp;oacute;ng v&amp;agrave; giảm nhiễu gi&amp;uacute;p xem truyền h&amp;igrave;nh sắc n&amp;eacute;t hơn;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- T&amp;iacute;ch hợp KTS DVB-T2.&lt;/p&gt;
+&lt;p&gt;- C&amp;oacute; th&amp;iacute;ch hợp MHL.&lt;/p&gt;</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Content</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">&lt;table cellspacing="80px" align="center"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="width: 434px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/23/tivi-led-toshiba-43l3650-full-hd-43inch-2.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;Thiết kế nguy&amp;ecirc;n khối đơn giản&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;a href="http://www.trananh.vn/dien-tu-am-thanh/tivi-led-toshiba-cid533-pr0-br156"&gt;Tivi LED Toshiba&lt;/a&gt;&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;40L3650&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;được thiết kế với k&lt;/span&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;iểu d&amp;aacute;ng nguy&amp;ecirc;n khối, đơn giản, hiện đại m&amp;agrave; kh&amp;ocirc;ng k&amp;eacute;m phần chắc chắn, ph&amp;ugrave; hợp với nhiều kh&amp;ocirc;ng gian.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="width: 52px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="width: 435px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/23/tivi-led-toshiba-40l3650-full-hd-40inch-1.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;M&amp;agrave;n h&amp;igrave;nh 40inch&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;Tivi LED Toshiba 40&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;L3650 Full&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;HD&amp;nbsp;&lt;/span&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;sở hữu m&amp;agrave;n h&amp;igrave;nh 40 inch sắc n&amp;eacute;t, cung cấp c&amp;aacute;c h&amp;igrave;nh ảnh Full HD rực rỡ nhờ v&amp;agrave;o sự kết hợp của nhiều c&amp;ocirc;ng nghệ h&amp;igrave;nh ảnh độc đ&amp;aacute;o.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 434px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/02/tivi-led-toshiba-32l3650-hd-32inch-2.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;C&amp;ocirc;ng nghệ CEVO Engine&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;Tivi LED Toshiba&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;40L3650&amp;nbsp;&lt;/span&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;HD 40inch&amp;nbsp;với c&amp;ocirc;ng nghệ&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;CEVO Engine cho h&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;&amp;igrave;nh ảnh được hiển thị sắc n&amp;eacute;t, sống động nhất.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="width: 52px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="width: 435px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/23/56858.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;Tần số qu&amp;eacute;t 200Hz&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;Tivi LED Toshiba&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;40L3650 Full&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;HD 40inch c&amp;oacute; t&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;ần số qu&amp;eacute;t 200 Hz mang đến h&amp;igrave;nh ảnh chuyển động nhanh sống động, r&amp;otilde; n&amp;eacute;t.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 434px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/23/tivi-led-toshiba-40l3650-full-hd-40inch-2.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;&amp;Acirc;m thanh v&amp;ograve;m trung thực&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;&lt;a href="http://www.trananh.vn/dien-tu-am-thanh/tivi-led-toshiba-40l3650-full-hd-40inch-pid193235cid533"&gt;Tivi LED Toshiba 40L3650 Full HD 40inch&lt;/a&gt;&lt;/strong&gt;&amp;nbsp;với &amp;acirc;m thanh v&amp;ograve;m t&amp;aacute;c động đến người nghe theo nhiều hướng kh&amp;aacute;c nhau với c&amp;ocirc;ng nghệ Dolby Digital Plus.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="width: 52px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="width: 435px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/02/tivi-led-toshiba-32l3650-hd-32inch-8.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;Chế độ Football Mode&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;Ti vi trang bị chế độ Football Mode t&amp;aacute;i tạo c&amp;aacute;c h&amp;igrave;nh ảnh trở n&amp;ecirc;n sắc r&amp;otilde; với m&amp;agrave;u sắc sống động để bạn c&amp;oacute; thể bắt trọn từng ph&amp;uacute;t gi&amp;acirc;y của trận cầu nảy lửa.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="width: 434px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/02/tivi-led-toshiba-32l3650-hd-32inch-3.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;Đầy đủ kết nối&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;Toshiba&amp;nbsp;&lt;/span&gt;&lt;span style="line-height: 19px; text-align: left; font-family: arial; color: #111111;"&gt;40L3650&lt;/span&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&amp;nbsp;h&lt;/span&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;ỗ trợ c&amp;aacute;c cổng kết nối USB, HDMI gi&amp;uacute;p bạn dễ d&amp;agrave;ng chia sẻ nội dung từ c&amp;aacute;c thiết bị kh&amp;aacute;c nhau v&amp;agrave; xem ch&amp;uacute;ng tr&amp;ecirc;n m&amp;agrave;n h&amp;igrave;nh lớn của tivi.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="width: 52px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="width: 435px;"&gt;
+&lt;div style="text-align: center;"&gt;&lt;span style="font-family: arial;"&gt;&lt;/span&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/06/02/4547.jpg" style="width: 284px; height: 186px; vertical-align: top; margin: 0px; border-width: 0px; border-style: solid;" /&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&lt;strong&gt;T&amp;iacute;ch hợp truyền h&amp;igrave;nh kỹ thuật số&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: justify;"&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;Tivi LED Toshiba&amp;nbsp;40L3650 HD&amp;nbsp;40inch&lt;/span&gt;&lt;span style="line-height: 19px; font-family: arial; color: #111111;"&gt;&amp;nbsp;c&amp;ograve;n được t&amp;iacute;ch hợp đầu thu DVB-T2 gi&amp;uacute;p người d&amp;ugrave;ng dễ d&amp;agrave;ng x&lt;/span&gt;&lt;span style="text-align: left; line-height: 19px; font-family: arial; color: #111111;"&gt;em những k&amp;ecirc;nh truyền h&amp;igrave;nh kỹ thuật số chất lượng cao.&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Specifications</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">&lt;table width="465" cellspacing="0" cellpadding="0" border="0" style="border-collapse: collapse; width: 349pt;"&gt;&lt;colgroup&gt;&lt;col width="219" style="width: 164pt;" /&gt; &lt;col width="118" style="width: 89pt;" /&gt; &lt;col width="64" span="2" style="width: 48pt;" /&gt; &lt;/colgroup&gt;
+&lt;tbody&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; width: 164pt;" class="xl2256"&gt;H&amp;atilde;ng sản xuất&lt;/td&gt;
+&lt;td align="left" style="width: 89pt;"&gt;TOSHIBA&lt;/td&gt;
+&lt;td style="width: 48pt;"&gt;&lt;/td&gt;
+&lt;td style="width: 48pt;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;MODEL&lt;/td&gt;
+&lt;td align="left"&gt;40L3650&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;K&amp;iacute;ch thước m&amp;agrave;n h&amp;igrave;nh&lt;/td&gt;
+&lt;td align="left"&gt;40"&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;Độ ph&amp;acirc;n giải&lt;/td&gt;
+&lt;td align="left"&gt;1920x1080&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;Chỉ số chất lượng h&amp;igrave;nh ảnh&lt;/td&gt;
+&lt;td align="left"&gt;200Hz&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;Cổng kết nối&lt;/td&gt;
+&lt;td align="left"&gt;HDMI,AV&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;HDMI&lt;/td&gt;
+&lt;td class="xl2257"&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;USB&lt;/td&gt;
+&lt;td class="xl2257"&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;T&amp;iacute;nh năng&lt;/td&gt;
+&lt;td align="left" colspan="3"&gt;C&amp;ocirc;ng nghệ xử l&amp;yacute; h&amp;igrave;nh ảnh CEVO ENGINE cho h&amp;igrave;nh ảnh trung thực nhất; Chức năng khuếch đại t&amp;iacute;n hiệu s&amp;oacute;ng v&amp;agrave; giảm nhiễu gi&amp;uacute;p xem truyền h&amp;igrave;nh sắc n&amp;eacute;t hơn; T&amp;iacute;ch hợp KTS DVB-T2; c&amp;oacute; kết nối MHL .&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;C&amp;ocirc;ng suất ti&amp;ecirc;u thụ điện&lt;/td&gt;
+&lt;td align="left"&gt;74W&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;K&amp;iacute;ch thước ( R x C x S )&lt;/td&gt;
+&lt;td align="right" style="text-align: left;"&gt;904 x 568 x 68&lt;/td&gt;
+&lt;td align="right"&gt;&lt;/td&gt;
+&lt;td align="right"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;Xuất xứ&lt;/td&gt;
+&lt;td align="left"&gt;Việt Nam&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr height="20" style="height: 15pt;"&gt;
+&lt;td style="height: 15pt; border-top-style: none; width: 164pt;" class="xl2256"&gt;Bảo h&amp;agrave;nh&lt;/td&gt;
+&lt;td align="left"&gt;24 Th&amp;aacute;ng&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SortBy</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">0</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>IsHot</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Published</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentFolder</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentUUID</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserId</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">admin</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Sequence</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">1</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+	</TextContent>
+	<Categories>
+		<Category>
+			<FolderName>Product~ProductCategory</FolderName>
+			<Contents>
+				<CategoryContent>
+					<UUID>DXD25ZN8LJJ3XPMG</UUID>
+					<DisplayName>Điện lạnh</DisplayName>
+				</CategoryContent>
+			</Contents>
+		</Category>
+	</Categories>
+</VersionInfo>

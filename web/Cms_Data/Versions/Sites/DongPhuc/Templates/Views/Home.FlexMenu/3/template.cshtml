@@ -1,0 +1,18 @@
+﻿@if(ViewBag.Parent != null){
+	<ul class="flexy-menu orange vertical" id="hidden">
+      @foreach(var parent in ViewBag.Parent){
+      	<li class="flexymenuli">
+           <span class="icon-cate"></span>
+           <a href="@parent.Url" title="@parent.Title">@parent.Title</a>
+           
+           <ul class="flexy-menu-box">
+             <div class="flexy-menu-inner">
+               <a href="/dien-lanh-cid388" class="menu-top-red" title="Điện lạnh tại Trần Anh">
+                 Sản phẩm điện lạnh</a>
+             </div>
+           </ul>
+           
+         </li>
+      }
+    </ul>
+}

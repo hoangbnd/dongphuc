@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCategory xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Content.Models">
+	<Category>
+		<CategoryFolder>Product~ProductCategory</CategoryFolder>
+		<CategoryUUID>DXD25ZN8LJJ3XPMG</CategoryUUID>
+		<ContentUUID>JA2JWLYNARWJ8L4K</ContentUUID>
+	</Category>
+	<Category>
+		<CategoryFolder>News~NewsCategory</CategoryFolder>
+		<CategoryUUID>CAR25MT37PPFYG9F</CategoryUUID>
+		<ContentUUID>7XV2EV5FKTQYGS37</ContentUUID>
+	</Category>
+	<Category>
+		<CategoryFolder>News~NewsCategory</CategoryFolder>
+		<CategoryUUID>CAR25MT37PPFYG9F</CategoryUUID>
+		<ContentUUID>Q352BPVMENY3M3E8</ContentUUID>
+	</Category>
+	<Category>
+		<CategoryFolder>News~NewsCategory</CategoryFolder>
+		<CategoryUUID>Q4T256Q9YWHW7SB4</CategoryUUID>
+		<ContentUUID>Q352BPVMENY3M3E8</ContentUUID>
+	</Category>
+</ArrayOfCategory>

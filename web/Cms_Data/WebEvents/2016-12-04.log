@@ -1,0 +1,246 @@
+Event code: 100000
+Event message: Path '/' was not found.
+Event time: 12/4/2016 4:37:35 PM
+Event time (UTC): 12/4/2016 9:37:35 AM
+Event ID: 6ae03cc02af34e31b665c4bd57f46c72
+Event sequence: 6
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253178279107049
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/' was not found.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 6
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/' was not found.
+Event time: 12/4/2016 5:43:32 PM
+Event time (UTC): 12/4/2016 10:43:32 AM
+Event ID: 8981bebd0d7e418ebd8470a7cffe09e4
+Event sequence: 4
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253218076862834
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/' was not found.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: 
+    Is authenticated: False
+    Authentication Type: 
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 7
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/' was not found.
+Event time: 12/4/2016 7:15:34 PM
+Event time (UTC): 12/4/2016 12:15:34 PM
+Event ID: 26cb5240e33b46eabc52ce62898a4895
+Event sequence: 168
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253259468241839
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/' was not found.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 62
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/' was not found.
+Event time: 12/4/2016 7:16:13 PM
+Event time (UTC): 12/4/2016 12:16:13 PM
+Event ID: 1266b5284f6449bfa569f0c3c5a1641a
+Event sequence: 174
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253259468241839
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/' was not found.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 60
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/' was not found.
+Event time: 12/4/2016 7:27:22 PM
+Event time (UTC): 12/4/2016 12:27:22 PM
+Event ID: fc8d479578f14453b6faed4c2368956f
+Event sequence: 264
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253259468241839
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/' was not found.
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 31
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Path '/Cms_Data/Sites/DongPhuc/Themes/Default/bootstrap-theme.min.css.map' was not found.
+Event time: 12/4/2016 7:30:36 PM
+Event time (UTC): 12/4/2016 12:30:36 PM
+Event ID: 77636260d2bb420eb1676b83022d08bd
+Event sequence: 313
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131253259468241839
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/Cms_Data/Sites/DongPhuc/Themes/Default/bootstrap-theme.min.css.map' was not found.
+
+Request information:
+    Request URL: /Cms_Data/Sites/DongPhuc/Themes/Default/bootstrap-theme.min.css.map
+    Request path: /Cms_Data/Sites/DongPhuc/Themes/Default/bootstrap-theme.min.css.map
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 38
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnSiteNotExists(ActionExecutingContext filterContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.CheckSiteExistsActionFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------

@@ -1,0 +1,21 @@
+﻿@if (Model != null)
+{ 
+<div>
+	<h3 class="title" @ViewHelper.Edit(Model,"Name")>@Html.Raw(Model.Name ?? "")</h3>
+	<div class="content">
+		<div @ViewHelper.Edit(Model,"Url")>@Html.Raw(Model.Url ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Thumbnail")>@Html.Raw(Model.Thumbnail ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Thumbnails")>@Html.Raw(Model.Thumbnails ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Manufacturer")>@Html.Raw(Model.Manufacturer ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Guarantee")>@Html.Raw(Model.Guarantee ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Price")>@Html.Raw(Model.Price ?? "")</div>
+		<div @ViewHelper.Edit(Model,"PromotionalPrice")>@Html.Raw(Model.PromotionalPrice ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Description")>@Html.Raw(Model.Description ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Content")>@Html.Raw(Model.Content ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Specifications")>@Html.Raw(Model.Specifications ?? "")</div>
+		<div @ViewHelper.Edit(Model,"SortBy")>@Html.Raw(Model.SortBy ?? "")</div>
+		<div @ViewHelper.Edit(Model,"Promotional")>@Html.Raw(Model.Promotional ?? "")</div>
+		<div @ViewHelper.Edit(Model,"IsHot")>@Html.Raw(Model.IsHot ?? "")</div>
+	</div>
+</div>
+}

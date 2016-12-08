@@ -3196,4 +3196,7 @@ Are you sure you want to use this size?</value>
   <data name="You do not have any module yet, click the button below to installl a module." xml:space="preserve">
     <value>You do not have any module yet, click the button below to installl a module.</value>
   </data>
+  <data name="cache" xml:space="preserve">
+    <value>cache</value>
+  </data>
 </root>
