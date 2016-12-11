@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh</ContentSummary>
+		<FolderName>Product~ProductCategory</FolderName>
+		<ContentSummary>Sản phẩm điện lạnh</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2016-12-08T14:14:17.1156933Z</UtcActionDate>
+		<UtcActionDate>2016-12-11T10:13:00.9332248Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh - Copy</ContentSummary>
+		<FolderName>Product~ProductCategory</FolderName>
+		<ContentSummary>Tủ lạnh theo hãng</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2016-12-08T14:14:06.727831Z</UtcActionDate>
+		<UtcActionDate>2016-12-11T10:12:55.0567228Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh - Copy</ContentSummary>
+		<FolderName>Product~Product</FolderName>
+		<ContentSummary>TIVI LED TOSHIBA 40L3650 FULL HD 40INCH</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2016-12-08T14:12:39.3883043Z</UtcActionDate>
+		<UtcActionDate>2016-12-11T09:45:30.1868434Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~NewsCategory</FolderName>
-		<ContentSummary>Tin tức nội bộ</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2016-12-08T13:43:34.5287217Z</UtcActionDate>
+		<FolderName>Product~Product</FolderName>
+		<ContentSummary>TIVI LED TOSHIBA 40L3650 FULL HD 40INCH</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2016-12-11T09:40:01.0224882Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~NewsCategory</FolderName>
-		<ContentSummary>Thiết bị số</ContentSummary>
+		<FolderName>Product~Product</FolderName>
+		<ContentSummary>TIVI LED TOSHIBA 40L3650 FULL HD 40INCH</ContentSummary>
 		<Action>Update</Action>
-		<UtcActionDate>2016-12-08T13:43:10.9435161Z</UtcActionDate>
+		<UtcActionDate>2016-12-11T09:39:15.6123648Z</UtcActionDate>
 	</LastAction>
 </ArrayOfLastAction>

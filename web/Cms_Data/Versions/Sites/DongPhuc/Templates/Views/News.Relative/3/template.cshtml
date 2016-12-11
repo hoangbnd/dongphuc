@@ -1,0 +1,37 @@
+﻿@if(ViewBag.News != null)
+{
+  var cate = ((TextContent)ViewBag.News).Categories("News~NewsCategory");
+  if(cate != null && cate.Any())
+  {
+    IWhereExpression exp = new TrueExpression();
+    exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+    
+    exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("News~NewsCategory").CreateQuery().WhereEquals("UUID", cate["UUID"])));
+    
+    var news = ContentHelper.TextFolder("News~News").CreateQuery().Where(exp).OrderByDescending("Date").Take(10);
+  
+    <div class="title-same-news">
+      @("Tin cùng chuyên mục".Label())
+    </div>
+    
+    <div class="list-news-top2 res_othercatenews">
+      
+      <div class="col-lg-15 col-lg-3">
+        <div class="inner-list-news">
+          <div class="img-list-news">
+            <a href="#">
+              <img src="https://img.trananh.com.vn/trananh/2016/11/18/fb_tuan44-09.jpg">
+            </a>
+          </div>
+          <a href="#" class="tit-list-news">
+            Mừng ngày nhà giáo Việt Nam 20/11: Khuyến mại đặc biệt khi mua laptop tại Trần Anh
+          </a>
+          <span class="count-news">
+            14:13 18/11/2016
+          </span>
+        </div>
+      </div>        
+      
+    </div>
+  }
+}

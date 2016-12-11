@@ -1,0 +1,87 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.ProductCategory != null)
+{
+	var categoryChild = ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("ParentUUID", ViewBag.ProductCategory.UUID);
+
+  <div class="list-cate">
+    @foreach(var productCategory in categoryChild)
+    {
+      <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 col-fix">
+        <div class="sc_item">
+          <div class="sc_bar">
+            <h3>
+              <a title="@productCategory.Title" href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = productCategory.Url })">@productCategory.Title</a>
+            </h3>
+          </div>
+          
+        </div>
+      </div>
+    }
+        
+  </div>
+
+
+
+  <!--section-list-product-->
+  <div class="section-list-product">
+    @foreach(var productCategory in categoryChild)
+    {
+        IWhereExpression exp = new TrueExpression();
+        exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+    
+        exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", productCategory["UUID"])));
+    
+        var product = ContentHelper.TextFolder("Product~Product").CreateQuery().Where(exp).Take(5);	
+    	<!--product-list-->
+        <div class="product-list">
+          
+          <div class="title-product bg-color-white">
+            <div class="row row-fix">
+              <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-fix">
+                <div class="title">
+                  <a href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = productCategory.Url })">@productCategory.Title</a>
+                </div>
+              </div>
+              <div class="col-lg-10 col-md-9 col-sm-9 col-fix hidden-xs">
+                <a href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = productCategory.Url })" class="viewmorecate">Xem thêm @productCategory.Title »</a>
+              </div>
+            </div>
+          </div>
+          
+          <!--col-md-12 col-fix-->
+          <div class="col-md-12 col-fix">
+            <!--row bg-white row-fix-->
+            <div class="row bg-white row-fix">
+              
+              <!--info-card-->
+              <div class="info-card">
+                @foreach(var item in product){
+                  <div class="col-lg-15 col-md-3 col-sm-2 col-xs-2 col-fix product-item">
+                    <div>
+                      <div class="fixed-image owl-item">
+                        <a href="#" title="Tivi LED Toshiba 40L3650 Full HD 40inch">
+                          <img class="lazy" src="@item["Thumbnail"]" >
+                        </a>
+                        <span class="ldiscount">Giảm 8%</span>
+                        <div class="ico-promotion">+ Khuyến mại</div>
+                      </div>
+                      <div class="product-name">
+                        <a href="@item["Url"]">@item["Name"]</a>
+                      </div>
+                      <b>Giá niêm yết: <span class="format-price">@item["Price"]</span>₫</b>
+                      <small class="real-price"><span class="format-price">@item["Price"]</span>₫</small>
+                    </div>
+                  </div>
+                }                
+              </div><!--/info-card-->
+              
+            </div><!--/row bg-white row-fix-->
+          </div><!--/col-md-12 col-fix-->
+          
+        </div>
+        <!--/product-list-->
+    }
+  </div>
+  <!--/section-list-product-->
+}

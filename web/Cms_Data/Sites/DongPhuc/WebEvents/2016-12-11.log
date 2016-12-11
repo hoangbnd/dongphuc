@@ -1,0 +1,364 @@
+Event code: 100000
+Event message: Path '/review-san-pham' was not found.
+Event time: 12/11/2016 10:47:13 AM
+Event time (UTC): 12/11/2016 3:47:13 AM
+Event ID: e9fdc542410a426392753731887074bf
+Event sequence: 192
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/6/ROOT-1-131259014664581492
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpException
+    Exception message: Path '/review-san-pham' was not found.
+
+Request information:
+    Request URL: /review-san-pham
+    Request path: /review-san-pham
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Thread information:
+    Thread ID: 6
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Controllers.ActionFilters.PageExecutionFilterAttribute.CreatePageRequestContext(ControllerContext controllerContext)
+   at Kooboo.CMS.Sites.Controllers.ActionFilters.PageExecutionFilterAttribute.OnActionExecuting(ActionExecutingContext filterContext)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 12/11/2016 4:20:04 PM
+Event time (UTC): 12/11/2016 9:20:04 AM
+Event ID: ebd36a42bfd64a81a153eb17d0b1ada5
+Event sequence: 901
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/6/ROOT-1-131259014664581492
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 1508
+    Process name: iisexpress.exe
+    Account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Contents\DongPhuc_DB\Schemas\ProductCategory\CustomTemplates\Selectable.cshtml(156): error CS0103: The name 'item' does not exist in the current context
+
+Request information:
+    Request URL: http://localhost:51123/Contents/TextContent/SelectCategories?siteName=DongPhuc&repositoryName=DongPhuc_DB&folderName=Product~ProductCategory&singleChoice=False
+    Request path: /Contents/TextContent/SelectCategories
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Thread information:
+    Thread ID: 327
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromSpecificName(ControllerContext controllerContext, String name, String cacheKey, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindPartialView(ControllerContext controllerContext, String partialViewName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.<>c__DisplayClass8.<FindPartialView>b__7(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindPartialView(ControllerContext controllerContext, String partialViewName)
+   at System.Web.Mvc.HtmlHelper.FindPartialView(ViewContext viewContext, String partialViewName, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.HtmlHelper.RenderPartialInternal(String partialViewName, ViewDataDictionary viewData, Object model, TextWriter writer, ViewEngineCollection viewEngineCollection)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model, ViewDataDictionary viewData)
+   at System.Web.Mvc.Html.PartialExtensions.Partial(HtmlHelper htmlHelper, String partialViewName, Object model)
+   at ASP._Page_Areas_Contents_Views_TextContent_SelectCategories_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Areas\Contents\Views\TextContent\SelectCategories.cshtml:line 29
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Invalid page URL route, This exception may be thrown if the URL path needs some route values but can not get from the URL generation helper. If you make sure the route value is optional, please set the default values in the URL Route tab. "san-pham".
+Event time: 12/11/2016 4:49:35 PM
+Event time (UTC): 12/11/2016 9:49:35 AM
+Event ID: d8f192710346417783f7b3e57f4a4bd6
+Event sequence: 1285
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/6/ROOT-1-131259014664581492
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: Kooboo.CMS.Sites.View.InvalidPageRouteException
+    Exception message: Invalid page URL route, This exception may be thrown if the URL path needs some route values but can not get from the URL generation helper. If you make sure the route value is optional, please set the default values in the URL Route tab. "san-pham".
+
+Request information:
+    Request URL: /
+    Request path: /
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Thread information:
+    Thread ID: 316
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(UrlHelper urlHelper, Site site, Page page, Object values, FrontRequestChannel channel)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(Page page, Object values)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(String urlMapKey, Object values, Func`3 findPage, Page& page)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.PageUrl(String urlMapKey, Object values, Page& page)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.PageUrl(String urlMapKey, Object values)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Home_FlexMenu_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Home.FlexMenu\template.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Home_MenuListProduct_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Home.MenuListProduct\template.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, String defaultContent)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_HomeLayout_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\HomeLayout\template.cshtml:line 19
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.View.FrontViewResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 12/11/2016 4:49:35 PM
+Event time (UTC): 12/11/2016 9:49:35 AM
+Event ID: a5b00fa4e45646768e573e31b050c7f8
+Event sequence: 1286
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/6/ROOT-1-131259014664581492
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 1508
+    Process name: iisexpress.exe
+    Account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Exception information:
+    Exception type: Kooboo.CMS.Sites.View.InvalidPageRouteException
+    Exception message: Invalid page URL route, This exception may be thrown if the URL path needs some route values but can not get from the URL generation helper. If you make sure the route value is optional, please set the default values in the URL Route tab. "san-pham".
+
+Request information:
+    Request URL: http://localhost:51123/
+    Request path: /
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+
+Thread information:
+    Thread ID: 316
+    Thread account name: DESKTOP-3VJBUV1\Vu Gia Son
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(UrlHelper urlHelper, Site site, Page page, Object values, FrontRequestChannel channel)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(Page page, Object values)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.GeneratePageUrl(String urlMapKey, Object values, Func`3 findPage, Page& page)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.PageUrl(String urlMapKey, Object values, Page& page)
+   at Kooboo.CMS.Sites.View.FrontUrlHelper.PageUrl(String urlMapKey, Object values)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Home_FlexMenu_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Home.FlexMenu\template.cshtml:line 13
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Home_MenuListProduct_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Home.MenuListProduct\template.cshtml:line 27
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, String defaultContent)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_HomeLayout_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\HomeLayout\template.cshtml:line 19
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.View.FrontViewResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------

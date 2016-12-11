@@ -1,0 +1,316 @@
+Event code: 100000
+Event message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(6): error CS0246: The type or namespace name 'IWhereExpression' could not be found (are you missing a using directive or an assembly reference?)
+Event time: 12/9/2016 6:11:50 PM
+Event time (UTC): 12/9/2016 11:11:50 AM
+Event ID: a46a3cda57074d4fa9f19c0293a21e8a
+Event sequence: 670
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131257519062084614
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(6): error CS0246: The type or namespace name 'IWhereExpression' could not be found (are you missing a using directive or an assembly reference?)
+
+Request information:
+    Request URL: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    Request path: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 30
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_RightBar_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\RightBar\template.cshtml:line 31
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 12/9/2016 6:11:51 PM
+Event time (UTC): 12/9/2016 11:11:51 AM
+Event ID: 3332305803434483a145f51b578c9c55
+Event sequence: 671
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131257519062084614
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 8748
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(6): error CS0246: The type or namespace name 'IWhereExpression' could not be found (are you missing a using directive or an assembly reference?)
+
+Request information:
+    Request URL: http://localhost:89/tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    Request path: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 30
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_RightBar_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\RightBar\template.cshtml:line 31
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(11): error CS1061: 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' does not contain a definition for 'UUID' and no extension method 'UUID' accepting a first argument of type 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' could be found (are you missing a using directive or an assembly reference?)
+Event time: 12/9/2016 6:16:56 PM
+Event time (UTC): 12/9/2016 11:16:56 AM
+Event ID: 52706015828e42f6a9b5c220c250c20c
+Event sequence: 686
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131257519062084614
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(11): error CS1061: 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' does not contain a definition for 'UUID' and no extension method 'UUID' accepting a first argument of type 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' could be found (are you missing a using directive or an assembly reference?)
+
+Request information:
+    Request URL: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    Request path: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 30
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_RightBar_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\RightBar\template.cshtml:line 31
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 12/9/2016 6:16:56 PM
+Event time (UTC): 12/9/2016 11:16:56 AM
+Event ID: 6779dfce0d5e4444aff3c204bf1a2288
+Event sequence: 687
+Event occurrence: 3
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131257519062084614
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 8748
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\News.Relative\template.cshtml(11): error CS1061: 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' does not contain a definition for 'UUID' and no extension method 'UUID' accepting a first argument of type 'Kooboo.CMS.Content.Query.IContentQuery<Kooboo.CMS.Content.Models.TextContent>' could be found (are you missing a using directive or an assembly reference?)
+
+Request information:
+    Request URL: http://localhost:89/tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    Request path: /tin-tuc/chi-tiet/trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh-copy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 30
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_RightBar_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\RightBar\template.cshtml:line 31
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------

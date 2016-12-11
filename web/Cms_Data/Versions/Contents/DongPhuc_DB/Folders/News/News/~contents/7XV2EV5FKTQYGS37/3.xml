@@ -1,0 +1,122 @@
+﻿<VersionInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Content.Versioning">
+	<CommitUser>admin</CommitUser>
+	<UtcCommitDate>2016-12-09T10:30:52.5945193Z</UtcCommitDate>
+	<TextContent xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserKey</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Trai-nghiem-san-pham---Nhan-qua-hap-dan-cung-Panasonic-va-Tran-Anh</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Id</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcCreationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-08T20:22:02.7753328+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcLastModificationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-09T10:30:52.5945193Z</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UUID</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">7XV2EV5FKTQYGS37</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Repository</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">DongPhuc_DB</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>FolderName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">News~News</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SchemaName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">News</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Title</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Url</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">trai-nghiem-san-pham-nhan-qua-hap-dan-cung-panasonic-va-tran-anh</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Thumbnail</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">/Cms_Data/Contents/DongPhuc_DB/Media/News/pana.jpg</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Description</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Nhân lễ hội giảm giá dịp cuối năm, Trần Anh và Panasonic phối hợp thực hiện chương trình trải nghiệm sản phẩm vô cùng hấp dẫn tại các trung tâm điện máy Trần Anh trên các tỉnh thành phía Bắc.</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Content</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">&lt;p class="MsoNormal"&gt;C&amp;ugrave;ng với Panasonic, Trần Anh lu&amp;ocirc;n cập nhật c&amp;ocirc;ng nghệ mới, tiện &amp;iacute;ch bằng những chương tr&amp;igrave;nh d&amp;ugrave;ng thử k&amp;egrave;m qu&amp;agrave; tặng v&amp;ocirc; c&amp;ugrave;ng hấp dẫn gi&amp;uacute;p c&amp;ocirc;ng việc nội trợ h&amp;agrave;ng ng&amp;agrave;y trở n&amp;ecirc;n nhẹ nh&amp;agrave;ng v&amp;agrave; dễ d&amp;agrave;ng hơn bao giờ hết.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;Nh&amp;acirc;n lễ hội giảm gi&amp;aacute; dịp cuối năm, Trần Anh v&amp;agrave; Panasonic phối hợp thực hiện chương tr&amp;igrave;nh trải nghiệm sản phẩm v&amp;ocirc; c&amp;ugrave;ng hấp dẫn tại c&amp;aacute;c trung t&amp;acirc;m điện m&amp;aacute;y Trần Anh tr&amp;ecirc;n c&amp;aacute;c tỉnh th&amp;agrave;nh ph&amp;iacute;a Bắc.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;Tham gia chương tr&amp;igrave;nh, kh&amp;aacute;ch h&amp;agrave;ng sẽ được t&amp;igrave;m hiểu v&amp;agrave; trải nghiệm c&amp;ocirc;ng nghệ tủ lạnh Inverter v&amp;agrave; m&amp;aacute;y giặt Super Clean Panasonic &amp;nbsp;&amp;ndash; trực tiếp d&amp;ugrave;ng thử sản phẩm lại được nhận nhiều qu&amp;agrave; tặng v&amp;ocirc; c&amp;ugrave;ng xinh xắn v&amp;agrave; tiện &amp;iacute;ch như b&amp;igrave;nh nước uống, giỏ đựng quần &amp;aacute;o, m&amp;oacute;c treo đồ &amp;hellip;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;img alt="" src="https://img.trananh.com.vn/trananh/2016/11/29/pana(1).jpg" style="width: 801px; height: 801px; vertical-align: top; margin: 0px auto; border-width: 0px; border-style: solid; display: block;" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;span style="font-family: tahoma; font-size: 13px;"&gt;&lt;strong&gt;&lt;em&gt;Chương tr&amp;igrave;nh sẽ được ch&amp;iacute;nh thức diễn ra từ ng&amp;agrave;y 7/12-13/12/2016 tại c&amp;aacute;c địa điểm:&lt;o:p&gt;&lt;/o:p&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoListParagraphCxSpFirst" style="margin-left: 0.75in; text-indent: -0.25in;"&gt;&lt;!-- [if !supportLists]--&gt;&lt;span style="font-family: tahoma; font-size: 13px;"&gt;&lt;strong&gt;&lt;em&gt;-&lt;span style="font-variant-numeric: normal; font-stretch: normal; line-height: normal;"&gt;&lt;/span&gt;&lt;!--[endif]--&gt;Trần Anh Thanh H&amp;oacute;a &amp;ndash; số 490 L&amp;ecirc; Lợi, TP. Thanh H&amp;oacute;a&lt;o:p&gt;&lt;/o:p&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoListParagraphCxSpMiddle" style="margin-left: 0.75in; text-indent: -0.25in;"&gt;&lt;!-- [if !supportLists]--&gt;&lt;span style="font-family: tahoma; font-size: 13px;"&gt;&lt;strong&gt;&lt;em&gt;-&lt;span style="font-variant-numeric: normal; font-stretch: normal; line-height: normal;"&gt;&lt;/span&gt;&lt;!--[endif]--&gt;&amp;nbsp;Trần Anh Nghệ An 2 &amp;ndash; số 07 Quang Trung, TP.Vinh&lt;o:p&gt;&lt;/o:p&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoListParagraphCxSpLast" style="margin-left: 0.75in; text-indent: -0.25in;"&gt;&lt;!-- [if !supportLists]--&gt;&lt;span style="font-family: tahoma; font-size: 13px;"&gt;&lt;strong&gt;&lt;em&gt;-&lt;span style="font-variant-numeric: normal; font-stretch: normal; line-height: normal;"&gt;&lt;/span&gt;&lt;!--[endif]--&gt;Trần Anh H&amp;agrave; Tĩnh &amp;ndash; số 175 H&amp;agrave; Huy Tập, TP. Đ&amp;agrave; Nẵng&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p class="MsoListParagraphCxSpLast" style="margin-left: 0.75in; text-indent: -0.25in;"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p class="MsoNormal"&gt;&lt;o:p&gt;&lt;span style="font-family: tahoma; font-size: 13px;"&gt;&lt;/span&gt;&lt;/o:p&gt;&lt;/p&gt;</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Date</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-08T00:00:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SortBy</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">0</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Published</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentFolder</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentUUID</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserId</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">admin</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Sequence</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">1</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>___EnableVersion___</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+	</TextContent>
+	<Categories>
+		<Category>
+			<FolderName>News~NewsCategory</FolderName>
+			<Contents>
+				<CategoryContent>
+					<UUID>CAR25MT37PPFYG9F</UUID>
+					<DisplayName>Khuyến mại &amp; Co.op</DisplayName>
+				</CategoryContent>
+			</Contents>
+		</Category>
+	</Categories>
+</VersionInfo>

@@ -1,0 +1,67 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+<div>
+  âcbac
+</div>
+@if(ViewBag.ProductCategory != null)
+{
+  IWhereExpression exp = new TrueExpression();
+  exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+  
+  exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", ViewBag.ProductCategory.UUID)));
+  
+  var product = ContentHelper.TextFolder("Product~Product").CreateQuery().Where(exp).Take(5);	
+  <!--section-list-product-->
+  <div class="section-list-product">
+   
+        
+    	<!--product-list-->
+        <div class="product-list">
+          
+          <div class="title-product bg-color-white">
+            <div class="row row-fix">
+              
+              <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-fix">
+                <div class="title">
+                  <a>@ViewBag.ProductCategory.Title</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!--col-md-12 col-fix-->
+          <div class="col-md-12 col-fix">
+            <!--row bg-white row-fix-->
+            <div class="row bg-white row-fix">
+              
+              <!--info-card-->
+              <div class="info-card">
+                @foreach(var item in product){
+                  <div class="col-lg-15 col-md-3 col-sm-2 col-xs-2 col-fix product-item">
+                    <div>
+                      <div class="fixed-image owl-item">
+                        <a href="#" title="Tivi LED Toshiba 40L3650 Full HD 40inch">
+                          <img class="lazy" src="@item["Thumbnail"]" >
+                        </a>
+                        <span class="ldiscount">Giảm 8%</span>
+                        <div class="ico-promotion">+ Khuyến mại</div>
+                      </div>
+                      <div class="product-name">
+                        <a href="@item["Url"]">@item["Name"]</a>
+                      </div>
+                      <b>Giá niêm yết: <span class="format-price">@item["Price"]</span>₫</b>
+                      <small class="real-price"><span class="format-price">@item["Price"]</span>₫</small>
+                    </div>
+                  </div>
+                }                
+              </div><!--/info-card-->
+              
+            </div><!--/row bg-white row-fix-->
+          </div><!--/col-md-12 col-fix-->
+          
+        </div>
+        <!--/product-list-->
+    
+  </div>
+  <!--/section-list-product-->
+}

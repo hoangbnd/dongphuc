@@ -164,24 +164,6 @@
 </tr>
 <tr>
             <th>
-            <label for="Manufacturer">H&#227;ng sản xuất</label>
-            </th>
-            <td>
-            <input class='long' id="Manufacturer" name="Manufacturer" type="text" value="@(Model.Manufacturer ?? "")" />            
-            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Manufacturer"], null)
-            
-            </td>          
-            </tr><tr>
-            <th>
-            <label for="Guarantee">Thời gian bảo h&#224;nh</label>
-            </th>
-            <td>
-            <input class='long' id="Guarantee" name="Guarantee" type="text" value="@(Model.Guarantee ?? "")" />            
-            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Guarantee"], null)
-            
-            </td>          
-            </tr><tr>
-            <th>
             <label for="Price">Gi&#225;</label>
             </th>
             <td>
@@ -214,15 +196,6 @@
             <td>
             <textarea name="Content" id="Content" class="Content tinymce" media_library_url="@Url.Action("Selection","MediaContent",ViewContext.RequestContext.AllRouteValues()))" media_library_title ="@("Selected Files".Localize())" rows="10" cols="100">@( Model.Content ?? "")</textarea>            
             @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Content"], null)
-            
-            </td>          
-            </tr><tr>
-            <th>
-            <label for="Specifications">Th&#244;ng số kỹ thuật</label>
-            </th>
-            <td>
-            <textarea name="Specifications" id="Specifications" class="Specifications tinymce" media_library_url="@Url.Action("Selection","MediaContent",ViewContext.RequestContext.AllRouteValues()))" media_library_title ="@("Selected Files".Localize())" rows="10" cols="100">@( Model.Specifications ?? "")</textarea>            
-            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Specifications"], null)
             
             </td>          
             </tr><tr>

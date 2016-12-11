@@ -1,0 +1,52 @@
+﻿ <!--section-list-product-menu-->
+<div class="section-list-product-menu">
+  <!--category-->
+  <div class="category bg-blue">
+    <div class="row row-fix">
+      <div class="col-md-2 col-fix">
+        <a class="product-cate text-uppercase text-white" title="Trang chủ" href="#">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          Danh mục sản phẩm
+        </a>
+      </div>
+      <div class="col-md-7 col-fix">
+        <div class="search-box">
+          <input type="text" class="form-control" id="txtSearch" placeholder="Từ khóa tìm kiếm..." autocomplete="off">
+          <button id="btnSearch" class="btn searchbtn text-blue" type="button" >
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/category-->
+  <!--category-->
+  <div class="menu-banner-video">
+    <div class="row row-fix">
+      <div class="col-md-2 col-fix">
+        @Html.FrontHtml().RenderView("Home.FlexMenu",ViewData)
+      </div>
+      <div class="col-md-7 col-fix">
+        @Html.FrontHtml().RenderView("Home.Slider",ViewData)
+      </div>
+      
+      <div class="col-md-3 col-fix hidden-md hidden-sm hidden-xs">
+        <div class="video-top">
+          <a href="#">
+            @Html.FrontHtml().RenderHtmlBlock("Home.Ad1")
+          </a>
+          
+          <a href="#" target="_blank">
+            @Html.FrontHtml().RenderHtmlBlock("Home.Ad2")
+          </a>
+          <a href="#" target="_blank">
+            @Html.FrontHtml().RenderHtmlBlock("Home.Ad3")
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/category-->
+  
+</div>
+<!--/section-list-product-menu-->

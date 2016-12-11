@@ -1,0 +1,62 @@
+﻿
+@using Kooboo.CMS.Content.Models;
+@using Kooboo.CMS.Content.Query;
+@{
+    var schema = (Kooboo.CMS.Content.Models.Schema)ViewData["Schema"];
+    var allowedEdit = (bool)ViewData["AllowedEdit"];
+    var allowedView = (bool)ViewData["AllowedView"];
+    var workflowItem  = Model._WorkflowItem_;
+    var hasWorkflowItem = workflowItem!=null;
+    var availableEdit = hasWorkflowItem || (!hasWorkflowItem && allowedEdit);
+}
+    @using(Html.BeginForm(ViewContext.RequestContext.AllRouteValues()["action"].ToString()
+            , ViewContext.RequestContext.AllRouteValues()["controller"].ToString()
+            , ViewContext.RequestContext.AllRouteValues()
+            , FormMethod.Post, new RouteValueDictionary(new { enctype = "application/x-www-form-urlencoded" })))
+{
+    <table><tr>
+            <th>
+            <label for="Name">Thuộc t&#237;nh</label>
+            </th>
+            <td>
+            @{ var dropDownDefault_Name =  @"";}
+                <select name="Name" class="long">
+                        @{
+                            var textFolder_Name = new TextFolder(Repository.Current, "Product~Specification");
+                            var query_Name = textFolder_Name.CreateQuery().DefaultOrder();
+                        }
+                        <option value=""></option>
+                        @foreach (var item in query_Name)
+                        {                            
+                            <option value="@item.UUID" @((Model.Name != null && Model.Name.ToString().ToLower() == @item.UUID.ToLower()) || (Model.Name == null && dropDownDefault_Name.ToLower() == @item.UUID.ToLower()) ? "selected" : "")>@item.GetSummary()</option>
+                        }
+                        </select>            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Name"], null)
+            
+            </td>          
+            </tr><tr>
+            <th>
+            <label for="Value">Th&#244;ng số</label>
+            </th>
+            <td>
+            <input class='long' id="Value" name="Value" type="text" value="@(Model.Value ?? "")" />            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Value"], null)
+            
+            </td>          
+            </tr>
+            @if (allowedEdit) {
+                <tr>
+            <th>
+           
+            </th>
+            <td>
+            <input id='Published' name="Published" type="checkbox" @(Convert.ToBoolean(Model.Published)?"checked":"") value="true"/>
+                                    <input type="hidden" value="false" name="Published"/>
+            <label class="inline" for="Published">Published</label>
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Published"], null)
+            </td>          
+            </tr>
+            }
+    @Html.Action("Categories", ViewContext.RequestContext.AllRouteValues())
+    </table>   
+}
