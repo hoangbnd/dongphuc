@@ -10,7 +10,7 @@
 function formatPrice(num) {
     var p = num.split(".");
     return p[0].split("").reverse().reduce(function(acc, num, i, orig) {
-        return  num + (i && !(i % 3) ? "," : "") + acc;
+        return  num + (i && !(i % 3) ? "." : "") + acc;
     }, "");
 }
 
@@ -55,11 +55,7 @@ $(document).ready(function () {
     });
   
     responsive();
-    $(".format-price").each(function(){
-      var n = $(this).html();      
-      $(this).html(formatPrice(n));
-    });
-  	
+    
 });
 
 $(window).load(function () {

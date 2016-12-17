@@ -1,0 +1,61 @@
+﻿@if(ViewBag.Product != null)
+{
+  var pricePromotion = ViewBag.Product.Price - ViewBag.Product.Price*ViewBag.Product.PromotionalPrice/100;
+  var pricedt1 = String.Format("{0:C0}", ViewBag.Product.Price);
+  var pricedt2 = String.Format("{0:C0}", pricePromotion);
+  <div class="row row-fix">
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix"></div>
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      <h1 class="tit-des-detail">
+        <span>@ViewBag.Product.Name</span>
+      </h1>
+    </div>
+    
+  </div>
+
+  <div class="row row-fix">
+    
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix">
+    
+    </div>
+    
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      <div class="product-summary">
+         @Html.Raw(ViewBag.Product.Description)
+      </div>
+      <div id="ctl00_ContentPlaceHolder1_pricedetail" class="price-detail">
+        <div class="price-dt1">
+          <span class="gny-b"></span>
+          @for(int i = 0; i < pricedt1.length - 1; i++)
+          {
+          	var item = pricedt1[i];
+          	if(item == '.')
+          	{
+          		<span class="numberdot-bb"></span>
+          	}else
+          	{
+          		<span class="number@(item)-bb"></span>
+          	}
+          }          
+        </div>
+        <div class="price-dt2">
+          <div class="">
+            <small class="price3">
+              <span class="number6-sw"></span>
+              <span class="numberdot-sw"></span>
+              <span class="number7-sw"></span>
+              <span class="number9-sw"></span>
+              <span class="number0-sw"></span>
+            </small>
+            <span class="gkm"></span>
+          </div>
+        </div>
+        <div class="price-vat">
+          Giá đã bao gồm thuế VAT
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+}

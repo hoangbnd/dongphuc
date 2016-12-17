@@ -1,0 +1,27 @@
+﻿@if(ViewBag.Product != null)
+{
+  <div class="row row-fix">
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix"></div>
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      <h1 class="tit-des-detail">
+        <span>@ViewBag.Product.Name</span>
+      </h1>
+    </div>
+    
+  </div>
+
+  <div class="row row-fix">
+    
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix">
+    
+    </div>
+    
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      <div class="product-summary">
+         @Html.Raw(ViewBag.Product.Description)
+      </div>
+    </div>
+    
+  </div>
+
+}

@@ -1,0 +1,86 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.ProductCategory != null)
+{
+  IWhereExpression exp = new TrueExpression();
+  exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+  
+  exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", ViewBag.ProductCategory.UUID)));
+  
+  var product = ContentHelper.TextFolder("Product~Product").CreateQuery().Where(exp);
+  <div class="list-product-pagging">
+    <div class="col-md-2 col-sm-3 col-xs-12 col-fix">
+      @Html.FrontHtml().RenderView("Product.FilterCategory",ViewData)
+    </div>
+    <div class="col-md-10 col-sm-9 col-xs-12 col-fix">
+      <div class="row row-fix">
+        	
+        <!--section-list-product-->
+        <div class="section-list-product">
+              
+              <!--product-list-->
+              <div class="product-list">
+                
+                <div class="title-product bg-color-white">
+                  <div class="row row-fix">
+                    
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-fix">
+                      <div class="title custom">
+                        <a>@ViewBag.ProductCategory.Title</a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                <!--col-md-12 col-fix-->
+                <div class="col-md-12 col-fix">
+                  <!--row bg-white row-fix-->
+                  <div class="row bg-white row-fix">
+                    
+                    <!--info-card-->
+                    <div class="info-card">
+                      @foreach(var item in product)
+                      {
+                      	var promotion = (decimal) item["PromotionalPrice"];
+                      	var price = (decimal) item["Price"];
+                        <div class="col-md-3 col-sm-2 col-xs-2 col-fix product-item product-item-list-pagging">
+                          <div>
+                            <div class="fixed-image owl-item">
+                              <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item["Url"] })" title="Tivi LED Toshiba 40L3650 Full HD 40inch">
+                                <img class="lazy" src="@item["Thumbnail"]" >
+                                @if(item["PromotionalPrice"].ToString().Length > 0)
+                                {
+                                	<span class="ldiscount">Giảm @item["PromotionalPrice"]%</span>
+                                }
+                                @if((bool)item["Promotional"])
+                                {
+                                	<div class="ico-promotion">+ Khuyến mại</div>
+                                }
+                                
+                              </a>
+                            </div>
+                            <div class="product-name">
+                              <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item["Url"] })">@item["Name"]</a>
+                            </div>
+                            <b>Giá niêm yết: <span class="format-price">@String.Format("{0:C0}", price)</span>₫</b>
+                           <small class="real-price"><span class="format-price">@(price - price*promotion/100)</span>₫</small>
+                          </div>
+                        </div>
+                      }                
+                    </div><!--/info-card-->
+                    
+                  </div><!--/row bg-white row-fix-->
+                </div><!--/col-md-12 col-fix-->
+                
+              </div>
+              <!--/product-list-->
+          
+        </div>
+        <!--/section-list-product-->
+        
+      </div>
+    </div>
+  </div>
+
+}
