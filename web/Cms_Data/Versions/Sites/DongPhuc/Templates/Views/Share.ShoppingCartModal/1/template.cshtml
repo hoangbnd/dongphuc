@@ -1,0 +1,85 @@
+﻿  <!-- Shopping cart Modal -->
+
+@if (@Page_Context.Current.PageRequestContext.AllQueryString["act"] == "clear-cart" && Request.Cookies[Site.Current.Name.ToLower()] != null)
+{
+
+    var myCookie = new HttpCookie(@Site.Current.Name.ToLower())
+        {
+            Expires = DateTime.Now.AddDays(-1d)
+        };
+    Response.Cookies.Add(myCookie);
+
+}
+     <div class="modal fade" id="shoppingcart" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+             <h4 class="modal-title">@("Giỏ hàng".Label())</h4>
+           </div>
+           <div class="modal-body">
+           
+            <!-- Items table -->
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>@("Tên sản phẩm".Label())</th>
+                  <th>@("Số lượng".Label())</th>
+                  <th>@("Giá".Label())</th>
+                </tr>
+              </thead>
+                <tbody>
+                    @{decimal totalPrice = 0; int totalUnit = 0;}
+                  
+            @if (Request.Cookies[Site.Current.Name.ToLower()] != null )
+            {
+                var eventQuery = ContentHelper.TextFolder("Products~Product").CreateQuery();
+                var obj = Json.Decode(Server.UrlDecode(Request.Cookies[Site.Current.Name.ToLower()].Value)); 
+                foreach (var cobj in obj.items)
+                {
+                    try
+                    {
+                        var item = eventQuery.WhereEquals("UUID", cobj.Key).First();
+                        decimal itemPrice = 0;
+                        if (item["Price"] != null)
+                        {
+                            itemPrice = (decimal)item["Price"];
+                        }
+                        if (!string.IsNullOrEmpty(item["PromotionalPrice"]))
+                        {
+                  			itemPrice = (decimal)item["Price"] - (decimal)item["Price"]*(decimal)item["PromotionalPrice"]/100;
+                        }
+
+                        var itemPriceText = String.Format("{0:0,0;;0} VNĐ", itemPrice).Replace(",", ".");
+                        var quantity = obj.items[cobj.Key].quantity;
+                        totalPrice += itemPrice * quantity;
+                        totalUnit++;
+                        <tr>
+                        <td><a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new {UserKey = item["Url"]})">@item["Name"]</a></td>
+                        <td>@quantity</td>
+                        <td>@itemPriceText</td>
+                    </tr>
+                    }
+                    catch
+                    {
+
+                    }
+                }
+            }
+                    
+                    <tr>
+                        <th></th>
+                      <th><span class='lb_carttotal'>@("Tổng tiền:".Label())</span></th>
+                        <th>@String.Format("{0:0,0;;0} VNĐ", totalPrice).Replace(",", ".")</th>
+                    </tr>
+                </tbody>
+            </table>
+            
+           </div>
+           <div class="modal-footer">
+             <a href="@Url.FrontUrl().PageUrl("trang-chu")" class="btn btn-info">@("Tiếp tục mua sẳm".Label())</a>
+             <a href="@Url.FrontUrl().PageUrl("san-pham/mua-hang")" class="btn btn-info">@("Xem giỏ hàng".Label())</a>
+           </div>
+         </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+     </div><!-- /.modal -->

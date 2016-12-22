@@ -7,11 +7,17 @@
         });
     }
 }
-function formatPrice(num) {
-    var p = num.split(".");
-    return p[0].split("").reverse().reduce(function(acc, num, i, orig) {
-        return  num + (i && !(i % 3) ? "." : "") + acc;
-    }, "");
+
+function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 function responsive() {
@@ -19,19 +25,11 @@ function responsive() {
 }
 
 $(document).ready(function () {
-
-    /*========== mmenu ==========*/
-   // var $menu = $('nav#mmenu');
-   // $menu.mmenu({
-   //     dragOpen: true,
-   //     navbar: {
-   //         title: "La Vuelta"
-   //     }
-   // });
-   //var $menuApi = $("#mmenu").data("mmenu");
-   // $('#mmenu .mm-listview>li a').click(function(e) {
-   //     $menuApi.close();
-   // });
+   RefreshCart();
+    $('#mmenu').mmenu({
+      blockUI: true,
+      dragOpen: true,
+    });
 
     var $myGroup = $('.list-agency');
     $myGroup.on('show.bs.collapse','.collapse', function() {
@@ -55,7 +53,36 @@ $(document).ready(function () {
     });
   
     responsive();
-    
+  
+    $(".list-search li").click(function(){
+      var thisQStr = $(this).find("a").attr("data-href");
+      var parentQStr = $(this).parent().attr("id");
+      var queryStr = window.location.search;
+      var parentVal = getParameterByName(parentQStr, queryStr);
+      if (parentVal) {
+        if(parentVal == thisQStr){
+        	queryStr = queryStr.replace('&'+parentQStr+'='+thisQStr, "").replace('?'+parentQStr+'='+thisQStr, "");
+        }else{
+        	queryStr = queryStr.replace(parentVal, thisQStr);
+        }
+      } else {
+        queryStr += "&" + parentQStr + "=" + thisQStr;
+      }
+      if(queryStr.indexOf('?') < 0){
+      	queryStr = queryStr.replace("&", "?");
+      }
+      location.href = window.location.pathname + queryStr;
+    });
+  
+  	$(".list-search li").each(function(){
+      	var thisQStr = $(this).find("a").attr("data-href");
+        var parentQStr = $(this).parent().attr("id");
+        var queryStr = window.location.search;
+        var parentVal = getParameterByName(parentQStr, queryStr);
+    	if (parentVal == thisQStr) {
+         $(this).find("a").addClass("active");
+      	}
+    });
 });
 
 $(window).load(function () {
@@ -63,11 +90,18 @@ $(window).load(function () {
         items:1,
         margin:10,
         navText: ['◄', '►'],
-        nav:true,
+        nav: true,
         dots: true,
         loop: true,
         autoHeight:true
     });
+  
+  	$('#slider-product-detail').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1
+    });
+  
 });
 
 $(window).resize(function () {

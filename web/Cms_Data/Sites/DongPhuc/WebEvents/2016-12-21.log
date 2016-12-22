@@ -1,0 +1,920 @@
+Event code: 100000
+Event message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml(38): error CS0266: Cannot implicitly convert type 'decimal' to 'int'. An explicit conversion exists (are you missing a cast?)
+Event time: 12/21/2016 9:37:36 PM
+Event time (UTC): 12/21/2016 2:37:36 PM
+Event ID: 978c3bf49fbd45d297706f5cfcaf12a1
+Event sequence: 110
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268021475817195
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml(38): error CS0266: Cannot implicitly convert type 'decimal' to 'int'. An explicit conversion exists (are you missing a cast?)
+
+Request information:
+    Request URL: /mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 46
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3007
+Event message: A compilation error has occurred.
+Event time: 12/21/2016 9:37:36 PM
+Event time (UTC): 12/21/2016 2:37:36 PM
+Event ID: dac365dc81d04983b4cbee34f80b9746
+Event sequence: 111
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268021475817195
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 10840
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpCompileException
+    Exception message: f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml(38): error CS0266: Cannot implicitly convert type 'decimal' to 'int'. An explicit conversion exists (are you missing a cast?)
+
+Request information:
+    Request URL: http://localhost:89/mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 46
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: Object reference not set to an instance of an object.
+Event time: 12/21/2016 9:38:16 PM
+Event time (UTC): 12/21/2016 2:38:16 PM
+Event ID: 4075e5934d794caaa78c877e3a376445
+Event sequence: 118
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268021475817195
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.NullReferenceException
+    Exception message: Object reference not set to an instance of an object.
+
+Request information:
+    Request URL: /mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 49
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Content.Query.TextContentQueryExtensions.CreateQuery(TextFolder textFolder)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_SaveCart_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 12/21/2016 9:38:16 PM
+Event time (UTC): 12/21/2016 2:38:16 PM
+Event ID: dd08168b2d1b48a1b69c8c3c0c6d5cdb
+Event sequence: 119
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268021475817195
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 10840
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.NullReferenceException
+    Exception message: Object reference not set to an instance of an object.
+
+Request information:
+    Request URL: http://localhost:89/mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 49
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Content.Query.TextContentQueryExtensions.CreateQuery(TextFolder textFolder)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_SaveCart_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+Event time: 12/21/2016 9:54:18 PM
+Event time (UTC): 12/21/2016 2:54:18 PM
+Event ID: 46bf4d0071be4108937a18d8f048f609
+Event sequence: 22
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268056088176587
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: /Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 13
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3003
+Event message: A validation error has occurred.
+Event time: 12/21/2016 9:54:18 PM
+Event time (UTC): 12/21/2016 2:54:18 PM
+Event ID: 57729274fbb345dbb57e918e8ef54ea6
+Event sequence: 23
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268056088176587
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 5504
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: http://localhost:89/Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 13
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: The best overloaded method match for 'string.IsNullOrEmpty(string)' has some invalid arguments
+Event time: 12/21/2016 10:18:11 PM
+Event time (UTC): 12/21/2016 3:18:11 PM
+Event ID: 92246b99a1fe4101afd3b5763d306d1d
+Event sequence: 203
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268056088176587
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+    Exception message: The best overloaded method match for 'string.IsNullOrEmpty(string)' has some invalid arguments
+
+Request information:
+    Request URL: /mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 35
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_SaveCart_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml:line 35
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3005
+Event message: An unhandled exception has occurred.
+Event time: 12/21/2016 10:18:11 PM
+Event time (UTC): 12/21/2016 3:18:11 PM
+Event ID: 90f0489e547d4c3cae9f8195f6142651
+Event sequence: 204
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-1-131268056088176587
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 5504
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: Microsoft.CSharp.RuntimeBinder.RuntimeBinderException
+    Exception message: The best overloaded method match for 'string.IsNullOrEmpty(string)' has some invalid arguments
+
+Request information:
+    Request URL: http://localhost:89/mua-hang
+    Request path: /mua-hang
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 35
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at CallSite.Target(Closure , CallSite , Type , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute2[T0,T1,TRet](CallSite site, T0 arg0, T1 arg1)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_SaveCart_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.SaveCart\template.cshtml:line 35
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Views_Product_CardDetail_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Views\Product.CardDetail\template.cshtml:line 94
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderViewInternal(HtmlHelper htmlHelper, String viewPath, ViewDataDictionary viewData, Object model)
+   at Kooboo.CMS.Sites.View.PositionRender.ViewRender.RenderView(HtmlHelper htmlHelper, Page_Context pageContext, String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(String viewName, ViewDataDictionary viewData, Object parameters, Boolean executeDataRule)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<>c__DisplayClass13.<RenderView>b__11()
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.RenderView(ViewPosition viewPosition)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.<RenderPositionContents>d__b.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Kooboo.CMS.Sites.View.FrontHtmlHelper.Position(String positionID, Func`1 defaultContentFunc)
+   at ASP._Page_Cms_Data_Sites_DongPhuc_Templates_Layouts_OneColumn_template_cshtml.Execute() in f:\Work\My Project\dongphuc_dev\web\Cms_Data\Sites\DongPhuc\Templates\Layouts\OneColumn\template.cshtml:line 26
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at Kooboo.CMS.Sites.Controllers.PageControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+Event time: 12/21/2016 10:41:38 PM
+Event time (UTC): 12/21/2016 3:41:38 PM
+Event ID: acbd9ca78dec4d849b4624c017e7d0ea
+Event sequence: 205
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: /Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 21
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3003
+Event message: A validation error has occurred.
+Event time: 12/21/2016 10:41:38 PM
+Event time (UTC): 12/21/2016 3:41:38 PM
+Event ID: 7449f48e468a4ff6b212548e23c73520
+Event sequence: 206
+Event occurrence: 1
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 5504
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: http://localhost:89/Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 21
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+Event time: 12/21/2016 10:44:52 PM
+Event time (UTC): 12/21/2016 3:44:52 PM
+Event ID: 363fe749b45b481581283b7e0aa4128b
+Event sequence: 395
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: /Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 35
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3003
+Event message: A validation error has occurred.
+Event time: 12/21/2016 10:44:52 PM
+Event time (UTC): 12/21/2016 3:44:52 PM
+Event ID: e712ace033c54847a6a9d98dd81c0750
+Event sequence: 396
+Event occurrence: 2
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 5504
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: http://localhost:89/Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 35
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------
+Event code: 100000
+Event message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+Event time: 12/21/2016 10:47:38 PM
+Event time (UTC): 12/21/2016 3:47:38 PM
+Event ID: 3f05a4069a854d49b61198c9eaf451a3
+Event sequence: 572
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: /Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 21
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+
+
+Custom event details: 
+--------------------------------------------------------------------------------------------------------
+Event code: 3003
+Event message: A validation error has occurred.
+Event time: 12/21/2016 10:47:38 PM
+Event time (UTC): 12/21/2016 3:47:38 PM
+Event ID: 28c094b4b2c6454f830ca5ab1e47c9a4
+Event sequence: 573
+Event occurrence: 3
+Event detail code: 0
+
+Application information:
+    Application domain: /LM/W3SVC/2/ROOT-2-131268080659492605
+    Trust level: Full
+    Application Virtual Path: /
+    Application Path: F:\Work\My Project\dongphuc_dev\web\
+    Machine name: DESKTOP-3VJBUV1
+
+Process information:
+    Process ID: 5504
+    Process name: w3wp.exe
+    Account name: IIS APPPOOL\.NET v4.5
+
+Exception information:
+    Exception type: System.Web.HttpRequestValidationException
+    Exception message: A potentially dangerous Request.Form value was detected from the client (teamplate="<p style='font-size:...").
+
+Request information:
+    Request URL: http://localhost:89/Kooboo-Submit/Buy
+    Request path: /Kooboo-Submit/Buy
+    User host address: ::1
+    User: admin
+    Is authenticated: True
+    Authentication Type: Forms
+    Thread account name: IIS APPPOOL\.NET v4.5
+
+Thread information:
+    Thread ID: 21
+    Thread account name: IIS APPPOOL\.NET v4.5
+    Is impersonating: False
+    Stack trace:    at Kooboo.CMS.Sites.Extension.PluginHelper.ReturnActionResult(ControllerContext controllerContext, Object model, Exception exception)
+   at Kooboo.CMS.Sites.Extension.ContactUsPlugin.Submit(Site site, ControllerContext controllerContext, SubmissionSetting submissionSetting)
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass13.<InvokeActionMethodWithFilters>b__10()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+--------------------------------------------------------------------------------------------------------

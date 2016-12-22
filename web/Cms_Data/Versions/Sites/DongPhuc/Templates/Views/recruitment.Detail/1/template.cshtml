@@ -1,0 +1,16 @@
+﻿@if (ViewBag.Recruitment != null)
+{
+  <div id="content">
+    <div class="news-main">
+      <div class="tit-news-main">
+        @ViewBag.Recruitment.Title
+      </div>
+      <div class="time-post">
+        @ViewBag.Recruitment.Date
+      </div>
+      <div class="news-content">
+        @Html.Raw(ViewBag.Recruitment.Content)
+      </div>
+    </div>
+  </div>
+}

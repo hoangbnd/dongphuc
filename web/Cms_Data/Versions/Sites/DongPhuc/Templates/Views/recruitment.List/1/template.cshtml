@@ -1,0 +1,31 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+<div class="list-news">
+  @if(ViewBag.Recruitment != null)
+  {
+  	
+    <div class="title-news-page">
+      <a class="top-news flLeft">Tuyển dụng</a>
+    </div>
+    
+    <div class="big-news">
+      <div class="row row-fix">
+        
+        <div class="col-sm-12 col-fix border-rb">
+          @foreach(var item in ViewBag.Recruitment){
+          <div class="news-second">
+            <div class="img-news-second flLeft">
+              <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item.Url })">
+                <img src="@item.Thumbnail" >
+              </a>
+            </div>
+            <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item.Url })" class="tit-news-second">@item.Title</a>
+          </div>
+          }                  
+        </div>
+        
+      </div>
+    </div>
+        
+  } 
+</div>

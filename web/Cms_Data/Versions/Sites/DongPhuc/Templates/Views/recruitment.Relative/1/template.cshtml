@@ -1,0 +1,30 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.Recruitments != null)
+{
+  <div class="title-same-news">
+    @("Tin cùng chuyên mục".Label())
+  </div>
+  
+  <div class="list-news-top2 res_othercatenews list-news-relative">
+    @foreach(var item in ViewBag.Recruitments)
+    {
+    <div class="col-lg-15 col-md-3 col-sm-3 col-xs-6 relative-news">
+      <div class="inner-list-news">
+        <div class="img-list-news">
+          <a href="@Url.FrontUrl().PageUrl("tuyen-dung/chi-tiet", new{ UserKey = item.Url })">
+            <img src="@item.Thumbnail">
+          </a>
+        </div>
+        <a href="@Url.FrontUrl().PageUrl("tuyen-dung/chi-tiet", new{ UserKey = item.Url })" class="tit-list-news">
+          @item.Title
+        </a>
+        <span class="count-news">
+          @item.Date
+        </span>
+      </div>
+    </div>
+    }
+    
+  </div>    
+}

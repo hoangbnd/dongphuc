@@ -39,7 +39,9 @@
                     <input type="checkbox" class="select-all" />
                 </th>
                 		<th class="Name @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Name",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Tên", "Name", -1)</th>
+		<th class="Url @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Url",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Url", "Url", -1)</th>
 		<th class="ByFilter @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "ByFilter",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Cho phép tìm kiếm", "ByFilter", -1)</th>
+		<th class="SortBy @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "SortBy",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Thứ tự", "SortBy", -1)</th>
 		<th class="UtcCreationDate @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "UtcCreationDate",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Creation date", "UtcCreationDate", -1)</th>
 		<th class="Published @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Published",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Published", "Published", -1)</th>
 
@@ -55,7 +57,9 @@
                     <input type="checkbox" class="select-all" />
                 </th>
                 		<th class="Name @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Name",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Tên", "Name", -1)</th>
+		<th class="Url @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Url",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Url", "Url", -1)</th>
 		<th class="ByFilter @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "ByFilter",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Cho phép tìm kiếm", "ByFilter", -1)</th>
+		<th class="SortBy @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "SortBy",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Thứ tự", "SortBy", -1)</th>
 		<th class="UtcCreationDate @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "UtcCreationDate",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Creation date", "UtcCreationDate", -1)</th>
 		<th class="Published @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Published",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Published", "Published", -1)</th>
 
@@ -77,7 +81,7 @@
                         <td>
                             <a class="f-icon folder" href="@this.Url.Action("SelectCategories", ViewContext.RequestContext.AllRouteValues().Merge("FolderName", (object)(folder.Parent.FullName)).Merge("FullName", (object)(folder.Parent.FullName)))">...</a>
                         </td>
-                        <td colspan="3"></td>
+                        <td colspan="5"></td>
                     </tr>
              }
              foreach (dynamic item in childFolders)
@@ -97,7 +101,7 @@
                                    @Html.IconImage("folder") @Kooboo.CMS.Content.Models.IPersistableExtensions.AsActual(item).FriendlyText</a>
                             }
                         </td>
-                        <td colspan="3">
+                        <td colspan="5">
                         </td>                      
                     </tr>
                 } 
@@ -128,7 +132,9 @@
         		<td>@if(Model.ShowTreeStyle){
 		<span class="expander">@Html.IconImage("arrow")</span>}
  @Kooboo.CMS.Form.Html.HtmlCodeHelper.RenderColumnValue(item.Name)</td>
+		<td>@Kooboo.CMS.Form.Html.HtmlCodeHelper.RenderColumnValue(item.Url)</td>
 		<td>@Kooboo.CMS.Form.Html.HtmlCodeHelper.RenderColumnValue(item.ByFilter)</td>
+		<td>@Kooboo.CMS.Form.Html.HtmlCodeHelper.RenderColumnValue(item.SortBy)</td>
 		<td class="date">@(DateTime.Parse(item["UtcCreationDate"].ToString()).ToLocalTime().ToShortDateString())</td>
 		<td>@Kooboo.CMS.Form.Html.HtmlCodeHelper.RenderColumnValue(item.Published)</td>
     </tr>     
@@ -152,7 +158,7 @@
         </td>
 		<td class="treeStyle">
 		<span class="expander">@Html.IconImage("arrow")</span>
-		@Html.IconImage("file document")<span data-bind="html:item.Name"></span></td>		<td data-bind="html:item.ByFilter"></td>
+		@Html.IconImage("file document")<span data-bind="html:item.Name"></span></td>		<td data-bind="html:item.Url"></td>		<td data-bind="html:item.ByFilter"></td>		<td data-bind="html:item.SortBy"></td>
         <td class="date" data-bind="html:item._LocalCreationDate_"></td>
         <td><span data-bind="text : (item.Published == true?'YES': '-')"></span></td>
     </tr>     

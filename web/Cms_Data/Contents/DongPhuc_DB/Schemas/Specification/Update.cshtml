@@ -25,6 +25,15 @@
             </td>          
             </tr><tr>
             <th>
+            <label for="Url">Url</label>
+            </th>
+            <td>
+            <input class='long' id="Url" name="Url" type="text" value="@(Model.Url ?? "")" />            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Url"], null)
+            
+            </td>          
+            </tr><tr>
+            <th>
            
             </th>
             <td>
@@ -32,6 +41,15 @@
                                     <input type="hidden" value="false" name="ByFilter"/>
             <label class="inline" for="ByFilter">Cho ph&#233;p t&#236;m kiếm</label>
             @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["ByFilter"], null)
+            </td>          
+            </tr><tr>
+            <th>
+            <label for="SortBy">Thứ tự</label>
+            </th>
+            <td>
+            <input class='long' id="SortBy" name="SortBy" type="text" value="@(Model.SortBy ?? "")"  data-val-number="The field SortBy must be a number." data-val="true"/>            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["SortBy"], null)
+            
             </td>          
             </tr>
             @if (allowedEdit) {

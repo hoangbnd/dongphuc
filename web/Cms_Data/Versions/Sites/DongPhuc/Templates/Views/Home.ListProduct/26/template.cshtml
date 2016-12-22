@@ -1,0 +1,86 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.ProductCategory != null)
+{
+  <!--section-list-product-->
+  <div class="section-list-product">
+    @foreach(var productCategory in ViewBag.ProductCategory)
+    {
+        IWhereExpression exp = new TrueExpression();
+        exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+    
+        exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", productCategory.UUID)));
+    
+        var product = ContentHelper.TextFolder("Product~Product").CreateQuery().Where(exp).Take(5);	
+        if(product != null && product.Any())
+        {
+          <!--product-list-->
+          <div class="product-list">
+            
+            <div class="title-product bg-color-white">
+              <div class="row row-fix">
+                <div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 col-fix">
+                  <div class="title">
+                    <a href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = productCategory.Url })">@productCategory.Title</a>
+                  </div>
+                </div>
+                <div class="col-lg-10 col-md-9 col-sm-9 col-fix hidden-xs">
+                  <div class="title-list-product">
+                    <ul>
+                      <li><a href="#" title="@productCategory.Title bán chạy tại Trần Anh">@productCategory.Title bán chạy</a></li>
+                      <li><a href="#" title="@productCategory.Title mới tại Trần Anh">@productCategory.Title mới</a></li>
+                      <li><a href="#" title="@productCategory.Title khuyến mại tại Trần Anh">@productCategory.Title khuyến mại</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!--col-md-12 col-fix-->
+            <div class="col-md-12 col-fix">
+              <!--row bg-white row-fix-->
+              <div class="row bg-white row-fix">
+                
+                <!--info-card-->
+                <div class="info-card">
+                  @foreach(var item in product)
+                  {
+                  var promotion = (decimal) item["PromotionalPrice"];
+                  var price = (decimal) item["Price"];
+                  var pricePromotion = price - price*promotion/100;
+                  <div class="col-lg-15 col-md-3 col-sm-2 col-xs-2 col-fix product-item owl-item">
+                    <div>
+                      <div class="fixed-image ">
+                        <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item["Url"] })" title="@item["Name"]">
+                          <img class="lazy" src="@item["Thumbnail"]" >
+                          @if(!string.IsNullOrEmpty(item["PromotionalPrice"].ToString()) && (decimal)item["PromotionalPrice"] > 0 )
+                          {
+                          	<span class="ldiscount">Giảm @item["PromotionalPrice"]%</span>
+                          }
+                          @if((bool)item["Promotional"])
+                          {
+                          <div class="ico-promotion">+ Khuyến mại</div>
+                          }
+                        </a>
+                      </div>
+                      <div class="product-name">
+                        <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item["Url"] })">@item["Name"]</a>
+                      </div>
+                      <b>Giá niêm yết: <span class="format-price">@String.Format("{0:C0}", price)</span></b>
+                      <small class="real-price"><span class="format-price">@String.Format("{0:C0}", pricePromotion)</span></small>
+                    </div>
+                  </div>
+                  }                
+                </div><!--/info-card-->
+                
+              </div><!--/row bg-white row-fix-->
+            </div><!--/col-md-12 col-fix-->
+            
+          </div>
+          <!--/product-list-->
+        }
+    	
+    }
+  </div>
+  <!--/section-list-product-->
+}

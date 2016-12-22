@@ -1,0 +1,468 @@
+﻿<VersionInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Content.Versioning">
+	<CommitUser>admin</CommitUser>
+	<UtcCommitDate>2016-12-22T16:42:54.6451262+07:00</UtcCommitDate>
+	<TextContent xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserKey</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">THONG-BAO-TUYEN-DUNG-TRUNG-TAM-KHO-VAN---THANH-TRI---Copy</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Id</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcCreationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-22T16:42:54.6451262+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcLastModificationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-22T16:42:54.6451262+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UUID</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">6D92YKGBH6AGL9TU</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Repository</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">DongPhuc_DB</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>FolderName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Recruitment</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SchemaName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">News</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Title</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">THÔNG BÁO TUYỂN DỤNG TRUNG TÂM KHO VẬN - THANH TRÌ - Copy</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Url</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">thong-bao-tuyen-dung-trung-tam-kho-van-thanh-tri</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Thumbnail</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">/Cms_Data/Contents/DongPhuc_DB/Media/News/logotrananh-03.jpg</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Description</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Công ty Cổ phần Thế giới số Trần Anh là doanh nghiệp hàng đầu Việt Nam trong lĩnh vực kinh doanh chuỗi hệ thống trung tâm bán lẻ Điện máy– Máy tính– Mobile. Luôn duy trì được tốc độ tăng trưởng ở mức rất cao và vững chắc về mọi mặt, nhiều năm liền nhận được các giải thưởng: Sao vàng Đất Việt; Top 500 doanh nghiệp lớn nhất Việt Nam- đã khẳng định Thương hiệu Trần Anh là chuyên gia hàng đầu trong lĩnh vực Điện máy.</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Content</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">&lt;table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="828" style="width: 621pt; margin-left: 4.65pt; border-collapse: collapse;"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 39.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 39.75pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;span style="font-size: 13.5pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;span style="font-size: 26pt; font-family: tahoma, sans-serif; color: red;"&gt;TH&amp;Acirc;N GỬI C&amp;Aacute;C ỨNG VI&amp;Ecirc;N TIỀM NĂNG !&lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 13.5pt;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 121.5pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 121.5pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;C&amp;ocirc;ng ty Cổ phần Thế giới số Trần Anh l&amp;agrave; doanh nghiệp h&amp;agrave;ng đầu Việt Nam trong lĩnh vực kinh doanh chuỗi hệ thống trung t&amp;acirc;m b&amp;aacute;n lẻ Điện m&amp;aacute;y&amp;ndash; M&amp;aacute;y t&amp;iacute;nh&amp;ndash; Mobile. Lu&amp;ocirc;n duy tr&amp;igrave; được tốc độ tăng trưởng ở mức rất cao v&amp;agrave; vững chắc về mọi mặt, nhiều năm liền nhận được c&amp;aacute;c giải thưởng: Sao v&amp;agrave;ng Đất Việt; Top 500 doanh nghiệp lớn nhất Việt Nam- đ&amp;atilde; khẳng định Thương hiệu Trần Anh l&amp;agrave; chuy&amp;ecirc;n gia h&amp;agrave;ng đầu trong lĩnh vực Điện m&amp;aacute;y.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 24.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 24.75pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 18pt; font-family: tahoma, sans-serif; color: red;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;TRUNG T&amp;Acirc;M KHO VẬN TRẦN ANH- THANH TR&amp;Igrave; TH&amp;Ocirc;NG B&amp;Aacute;O &amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 66.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 66.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;C&amp;ocirc;ng ty Cổ phần Thế giới số Trần Anh lu&amp;ocirc;n nồng nhiệt ch&amp;agrave;o đ&amp;oacute;n tất cả ứng vi&amp;ecirc;n c&amp;oacute; tr&amp;igrave;nh độ, năng lực v&amp;agrave; đạo đức nghề nghiệp đồng h&amp;agrave;nh ph&amp;aacute;t triển c&amp;ugrave;ng thương hiệu.&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 40.5pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 40.5pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 27pt; font-family: tahoma, sans-serif; color: red;"&gt;C&amp;Aacute;C VỊ TR&amp;Iacute; TUYỂN DỤNG&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 21pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 21pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: red;"&gt;(Để biết th&amp;ecirc;m m&amp;ocirc; tả c&amp;ocirc;ng việc vui l&amp;ograve;ng CLICK v&amp;agrave;o c&amp;aacute;c vị tr&amp;iacute; tương ứng)&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 45.75pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 45.75pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border: 1pt solid windowtext; width: 320pt; background: #1f497d; height: 45.75pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: white;"&gt;VỊ TR&amp;Iacute;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: 1pt solid windowtext; border-left: none; width: 104pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: #1f497d; height: 45.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: white;"&gt;M&amp;Atilde; VỊ TR&amp;Iacute;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: 1pt solid windowtext; border-left: none; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: #1f497d; height: 45.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: white;"&gt;SỐ LƯỢNG&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 45.75pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 29.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 29.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="5" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 507pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 29.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: red;"&gt;&amp;nbsp;TRUNG T&amp;Acirc;M KHO VẬN TRẦN ANH- THANH TR&amp;Igrave;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 29.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/dieu-phoi-vien--trung-tam-kho-van-n33322"&gt;&lt;span style="color: #1d308c;"&gt;ĐIỀU PHỐI VI&amp;Ecirc;N&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/dieu-phoi-vien--trung-tam-kho-van-n33322"&gt;&lt;span style="color: #1d308c;"&gt;KV.DP&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: red;"&gt;2&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/chuyen-vien-dao-tao-va-kiem-soat-chat-luong--trung-tam-kho-van-n33323"&gt;&lt;span style="color: #1d308c;"&gt;CHUY&amp;Ecirc;N VI&amp;Ecirc;N Đ&amp;Agrave;O TẠO V&amp;Agrave; KIỂM SO&amp;Aacute;T CHẤT LƯỢNG&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/chuyen-vien-dao-tao-va-kiem-soat-chat-luong--trung-tam-kho-van-n33323"&gt;&lt;span style="color: #1d308c;"&gt;KV.KSCL&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: red;"&gt;2&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/nhan-vien-lai-xe-ha-noi-n33169"&gt;&lt;span style="color: #1d308c;"&gt;NH&amp;Acirc;N VI&amp;Ecirc;N L&amp;Aacute;I XE&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/nhan-vien-lai-xe-ha-noi-n33169"&gt;&lt;span style="color: #1d308c;"&gt;KV.LX&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: red;"&gt;5&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/nhan-vien-dieu-chuyen-noi-bo-n32863"&gt;&lt;span style="color: #1d308c;"&gt;NH&amp;Acirc;N VI&amp;Ecirc;N ĐIỀU CHUYỂN H&amp;Agrave;NG NỘI BỘ&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;KV.DCNB&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: red;"&gt;5&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/ky-thuat-vien-bao-duong-o-to-n33811"&gt;&lt;span style="color: #1d308c;"&gt;NH&amp;Acirc;N VI&amp;Ecirc;N KỸ THUẬT BẢO DƯỠNG &amp;Ocirc; T&amp;Ocirc;&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;KV.KTBD&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: red;"&gt;3&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/tin-tuc/tuyen-dung/nhan-vien-kho-kho-van-n33812"&gt;&lt;span style="color: #1d308c;"&gt;NH&amp;Acirc;N VI&amp;Ecirc;N KHO&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;KV.KHO&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: red;"&gt;10&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 20.25pt;"&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td colspan="3" style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 320pt; border-bottom: 1pt solid windowtext; border-right: 1pt solid black; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://trananh.vn/tin-tuc/tuyen-dung/nhan-vien-ky-thuat-van-chuyen--giao-lap-dien-may-n11813"&gt;&lt;span style="color: #1d308c;"&gt;NH&amp;Acirc;N VI&amp;Ecirc;N KỸ&amp;nbsp;THUẬT GIAO LẮP ĐIỆN M&amp;Aacute;Y&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: none; width: 104pt; border-right: none; border-image: initial; border-bottom: 1pt solid windowtext; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="text-decoration: underline; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://trananh.vn/tin-tuc/tuyen-dung/nhan-vien-ky-thuat-van-chuyen--giao-lap-dien-may-n11813"&gt;&lt;span style="color: #1d308c;"&gt;KV.GL&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; border-top: none; border-left: 1pt solid windowtext; width: 83pt; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-image: initial; background: white; height: 20.25pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 15pt; font-family: tahoma, sans-serif; color: red;"&gt;30&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 20.25pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 24pt;"&gt;
+&lt;td colspan="7" valign="bottom" style="padding: 0in 5.4pt; width: 621pt; height: 24pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: red;"&gt;1.&amp;nbsp;&amp;nbsp;&amp;nbsp;HƯỚNG DẪN NỘP HỒ SƠ:&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://trananh.vn/lib/TRANANH-THONG-TIN-UNG-VIEN.xls"&gt;&lt;span style="text-decoration: none; color: #1d308c;"&gt;&amp;bull; Download mẫu th&amp;ocirc;ng tin ứng vi&amp;ecirc;n&amp;nbsp;tại đ&amp;acirc;y&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 36.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 36.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="mailto:tuyendung@trananh.com.vn"&gt;&lt;span style="text-decoration: none; color: #1d308c;"&gt;&amp;bull; Điền đầy đủ th&amp;ocirc;ng tin v&amp;agrave; gửi về email:&amp;nbsp;tuyendung@trananh.com.vn .&amp;nbsp;Lưu &amp;yacute; email v&amp;agrave; file đ&amp;iacute;nh k&amp;egrave;m ghi r&amp;otilde;&amp;nbsp;&amp;ldquo;M&amp;Atilde; VỊ TR&amp;Iacute; - HOVATEN&amp;rdquo;&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;V&amp;iacute; dụ: KV.DP - LEXUANTUNG&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull; Hồ sơ bắt buộc c&amp;oacute; ảnh đ&amp;iacute;nh k&amp;egrave;m&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 78pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 149pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 93pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 104pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 83pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 24pt;"&gt;
+&lt;td colspan="7" valign="bottom" style="padding: 0in 5.4pt; width: 621pt; height: 24pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: red;"&gt;2.&amp;nbsp;&amp;nbsp;&amp;nbsp;CHẾ ĐỘ Đ&amp;Atilde;I NGỘ TẠI TRẦN ANH&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Thu nhập hấp dẫn, cao hơn so với mặt bằng chung của c&amp;aacute;c c&amp;ocirc;ng ty trong c&amp;ugrave;ng lĩnh vực;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;C&amp;aacute;c chế độ BHXH, BHYT, BHTN theo Luật định;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Bảo hiểm Chăm s&amp;oacute;c sức khỏe đặc biệt cho C&amp;aacute;n bộ quản l&amp;yacute;;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Lương th&amp;aacute;ng 13 theo kết quả kinh doanh năm;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Thưởng c&amp;aacute;c ng&amp;agrave;y lễ lớn: Tết Nguy&amp;ecirc;n Đ&amp;aacute;n, Tết Dương lịch, Ng&amp;agrave;y 30.4 &amp;amp; 1.5, Quốc Kh&amp;aacute;nh 2.9;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Phụ cấp th&amp;acirc;m ni&amp;ecirc;n: Theo năm c&amp;ocirc;ng t&amp;aacute;c;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Hỗ trợ đồng phục: Theo vị tr&amp;iacute; chức danh;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Hỗ trợ xăng xe cho vị tr&amp;iacute; cần đi lại b&amp;ecirc;n ngo&amp;agrave;i;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull;Hỗ trợ tiền điện thoại: theo vị tr&amp;iacute; chức danh;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 78pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 149pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 93pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 104pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 83pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 18.75pt;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 41.25pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 41.25pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: red;"&gt;ĐẶC BIỆT:&amp;nbsp;&lt;/span&gt;&lt;em&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;To&amp;agrave;n bộ&amp;nbsp;&lt;strong&gt;C&amp;Aacute;N BỘ - NH&amp;Acirc;N VI&amp;Ecirc;N&amp;nbsp;&lt;/strong&gt;đều c&amp;oacute; quyền&amp;nbsp;&lt;strong&gt;ỨNG TUYỂN&amp;nbsp;&lt;/strong&gt;v&amp;agrave; tham gia thi tuyển&lt;/span&gt;&lt;/em&gt;&lt;span style="font-size: 14pt;"&gt;&amp;nbsp;&lt;/span&gt;&lt;strong&gt;&lt;em&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;nbsp;QUẢN L&amp;Yacute; CẤP TRUNG - CẤP CAO&lt;/span&gt;&lt;/em&gt;&lt;/strong&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: red;"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 78pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 149pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 93pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 104pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 83pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 24pt;"&gt;
+&lt;td colspan="7" valign="bottom" style="padding: 0in 5.4pt; width: 621pt; height: 24pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="font-size: 16pt; font-family: tahoma, sans-serif; color: red;"&gt;3.&amp;nbsp;&amp;nbsp;&amp;nbsp;TH&amp;Ocirc;NG TIN LI&amp;Ecirc;N HỆ&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;strong&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;BỘ PHẬN TUYỂN DỤNG - PH&amp;Ograve;NG NH&amp;Acirc;N SỰ - C&amp;Ocirc;NG TY CP THẾ GIỚI SỐ TRẦN ANH&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull; Địa chỉ:&amp;nbsp;1174 Đường L&amp;aacute;ng - Đống Đa - H&amp;agrave; Nội&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull; Điện thoại: 04 3766 6666 -&amp;nbsp;M&amp;aacute;y lẻ&amp;nbsp;1413&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&amp;bull; Email:&amp;nbsp;tuyendung@trananh.com.vn&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 18.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 18.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="http://www.trananh.vn/"&gt;&lt;span style="text-decoration: none; color: #1d308c;"&gt;&amp;bull; Website:&amp;nbsp;www.trananh.vn&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 46.5pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 46.5pt; white-space: nowrap;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;strong&gt;&lt;span style="font-size: 26pt; font-family: tahoma, sans-serif; color: red;"&gt;Lập nghiệp th&amp;agrave;nh danh c&amp;ugrave;ng Trần Anh!!!&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 24.75pt;"&gt;
+&lt;td colspan="7" style="padding: 0in 5.4pt; width: 621pt; height: 24.75pt;"&gt;
+&lt;p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: center;"&gt;&lt;span style="font-size: 14pt; font-family: tahoma, sans-serif; color: #1d308c;"&gt;&lt;a href="https://www.facebook.com/VieclamTranAnh/"&gt;&lt;strong&gt;&lt;span style="text-decoration: none; color: #1d308c;"&gt;FANPAGE FACEBOOK:&lt;/span&gt;&lt;/strong&gt;&lt;span style="text-decoration: none; color: #1d308c;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style="color: #1d308c;"&gt;TUYỂN DỤNG TRẦN ANH&lt;/span&gt;&lt;/a&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 15pt;"&gt;
+&lt;td style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 78pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 149pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 93pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 104pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 83pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;td valign="bottom" style="padding: 0in 5.4pt; width: 57pt; height: 15pt; white-space: nowrap;"&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Date</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-22T00:00:00+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SortBy</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">0</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Published</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentFolder</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentUUID</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserId</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">admin</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Sequence</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">2</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+	</TextContent>
+	<Categories />
+</VersionInfo>

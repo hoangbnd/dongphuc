@@ -1,0 +1,47 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.ProductCategory != null)
+{
+
+  IWhereExpression exp = new TrueExpression();
+  exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+  
+  exp = new AndAlsoExpression(exp, new WhereEqualsExpression("ParentUUID", null));
+  
+  exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", ViewBag.ProductCategory.UUID)));
+  
+  var searchCate = ContentHelper.TextFolder("Product~Specification").CreateQuery().Where(exp);
+
+  if(searchCate != null)
+  {
+    foreach(var item in searchCate)
+    {
+      IWhereExpression expOption = new TrueExpression();
+      expOption = new AndAlsoExpression(expOption, new WhereEqualsExpression("Published", true));
+      
+      expOption = new AndAlsoExpression(expOption, new WhereEqualsExpression("ParentUUID", item["UUID"]));
+      
+      expOption = new AndAlsoExpression(expOption, new WhereCategoryExpression(ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("UUID", ViewBag.ProductCategory.UUID)));
+      
+      var searchOption = ContentHelper.TextFolder("Product~Specification").CreateQuery().Where(expOption);
+      if(searchOption != null)
+      {
+        <div class="box-tab toggle-btn" data-toggle="collapse" data-target="#menu-price">
+          Chọn @item["Name"]<span class="caret hidden-lg hidden-md hidden-sm"></span>
+        </div>
+        <ul id="menu-price" class="bb_content collapse in">
+          @foreach(var option in searchOption)
+          {
+            <li class="li_item_brand">
+              <h3><span>››</span><a href="@option["Url"]">@option["Name"]</a></h3>
+            </li>
+          }
+        </ul>
+      }
+      
+    }
+
+  }
+	
+}
+

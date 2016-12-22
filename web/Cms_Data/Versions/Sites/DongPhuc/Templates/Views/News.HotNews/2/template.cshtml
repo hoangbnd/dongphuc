@@ -1,0 +1,26 @@
+﻿@if(ViewBag.HotNews != null)
+{
+  <aside id="sidebar" class="sticky hidden-md hidden-sm hidden-xs">
+    <div class="relate-news">
+        <div class="box_browse">
+            <div class="box-tab-news">
+               <b><span>Bài viết nổi bật</span></b>
+            </div>
+            <ul class="bb_content-news">
+              @foreach(var item in ViewBag.HotNews)
+              {
+                <div class="news-second">
+                  <div class="img-news-second flLeft">
+                    <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item["Url"] })">
+                      <img src="@item["Thumbnail"]" >
+                    </a>
+                  </div>
+                  <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item["Url"] })" class="tit-news-second">@item["Title"]</a>
+                </div>
+              }
+            </ul>
+        </div>
+  
+     </div>
+  </aside>
+}

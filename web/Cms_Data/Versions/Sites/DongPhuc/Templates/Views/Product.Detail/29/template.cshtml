@@ -1,0 +1,128 @@
+﻿@if(ViewBag.Product != null)
+{
+  var pricePromotion = ViewBag.Product.Price - ViewBag.Product.Price*ViewBag.Product.PromotionalPrice/100;
+  var pricedt1 = String.Format("{0:C0}", ViewBag.Product.Price);
+  var pricedt2 = String.Format("{0:C0}", pricePromotion);
+  var listImg = ContentHelper.SplitMultiFiles(ViewBag.Product.Thumbnails);
+  <div class="row row-fix">
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix"></div>
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      <h1 class="tit-des-detail">
+        <span>@ViewBag.Product.Name</span>
+      </h1>
+    </div>
+    
+  </div>
+
+  <div class="row row-fix">
+    
+    <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 col-fix">
+      
+        <div class="gallery-sample">
+          <a href="@listImg[0]" class="cloud-zoom" id="cloudZoom">
+            <img src="@istImg[0]" title="The Title" class="img-responsive">
+          </a>
+          <ul class="recent_list">
+            @foreach(var file in listImg)
+            {
+              <li class="photo_container">
+                <a href="@file" rel="gallerySwitchOnMouseOver: true, popupWin:'@file', useZoom: 'cloudZoom', smallImage: '@file'" class="cloud-zoom-gallery">
+                  <img itemprop="image" src="@file" class="img-responsive">
+                </a>
+              </li>
+            }         
+          </ul>
+        </div>
+      
+    </div>
+    
+    <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12 col-fix">
+      
+      <div class="product-summary">
+         @Html.Raw(ViewBag.Product.Description)
+      </div>
+      <div class="price-detail">
+        <div class="price-dt1">
+          <span class="gny-b"></span>
+          @for(int i = 0; i < pricedt1.Length - 2; i++)
+          {
+          	var item = pricedt1[i];
+          	if(item == '.')
+          	{
+          		<span class="numberdot-bb"></span>
+          	}else
+          	{
+          		<span class="number@(item)-bb"></span>
+          	}
+          }          
+        </div>
+        <div class="price-dt2">
+          <div class="">
+            <small class="price3">
+              @for(int i = 0; i < pricedt2.Length - 5; i++)
+              {
+                var item = pricedt2[i];
+                if(item == '.')
+                {
+                	<span class="numberdot-sw"></span>
+                }else
+                {
+                	<span class="number@(item)-sw"></span>
+                }
+              } 
+            </small>
+            <span class="gkm"></span>
+          </div>
+        </div>
+        <div class="price-vat">
+          Giá đã bao gồm thuế VAT
+        </div>        
+      </div>
+      
+      <div class="ba-button">
+        <ul>
+          <li>
+            <a href="" class="buynow calltobuy" rel="nofollow">
+            	Đặt mua ngay<span>Giao hàng tận nơi</span> 
+            </a>
+          </li>
+          <li>
+            <a class="buynow calltobuy" href="tel:1900545545">
+              Gọi điện để có giá tốt<span>1900 545 546</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      
+    </div>
+    
+  </div>
+
+
+<div id="product-tab">
+  <ul class="nav">
+    <li class="nav-one"><a href="#featured" class="current">Mô tả sản phẩm</a></li>
+    <li class="nav-two"><a href="#write">Thông số kỹ thuật</a></li>
+    
+  </ul>
+  <div class="list-wrap">
+    
+    <ul id="featured">
+      <div class="ltlmota">
+        @Html.Raw(ViewBag.Product.Content)
+      </div>
+    </ul>
+    
+    <ul id="write" class="hide">
+      <div class="ltlmota">
+      
+      </div>
+    </ul>
+    
+  </div>
+</div>
+
+
+
+}

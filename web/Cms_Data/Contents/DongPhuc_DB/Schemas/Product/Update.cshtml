@@ -201,6 +201,15 @@
             </td>          
             </tr><tr>
             <th>
+            <label for="Specification">Th&#244;ng số kỹ thuật</label>
+            </th>
+            <td>
+            <textarea name="Specification" id="Specification" class="Specification tinymce" media_library_url="@Url.Action("Selection","MediaContent",ViewContext.RequestContext.AllRouteValues()))" media_library_title ="@("Selected Files".Localize())" rows="10" cols="100">@( Model.Specification ?? "")</textarea>            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Specification"], null)
+            
+            </td>          
+            </tr><tr>
+            <th>
             <label for="SortBy">Thứ tự</label>
             </th>
             <td>

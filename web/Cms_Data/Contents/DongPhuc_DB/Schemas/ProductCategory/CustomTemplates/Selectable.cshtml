@@ -36,7 +36,7 @@
         <thead>
             <tr>
                 <th class="checkbox">
-                    @*<input type="checkbox" class="select-all" />*@
+                    <input type="checkbox" class="select-all" />
                 </th>
                 		<th class="Title @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Title",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Tiêu đề", "Title", -1)</th>
 		<th class="Url @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Url",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Đường dẫn", "Url", -1)</th>
@@ -54,7 +54,7 @@
         <thead>
             <tr>
                 <th class="checkbox">
-                    @*<input type="checkbox" class="select-all" />*@
+                    <input type="checkbox" class="select-all" />
                 </th>
                 		<th class="Title @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Title",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Tiêu đề", "Title", -1)</th>
 		<th class="Url @SortByExtension.RenderSortHeaderClass(ViewContext.RequestContext, "Url",-1)">@SortByExtension.RenderGridHeader(ViewContext.RequestContext, "Đường dẫn", "Url", -1)</th>
@@ -126,7 +126,7 @@
             }
             else
             {
-                @*<input type="checkbox" value='@item["UUID"]' name="select" class="select docs"/>*@
+                <input type="checkbox" value='@item["UUID"]' name="select" class="select docs"/>
             }
         </td>
         		<td>@if(Model.ShowTreeStyle){

@@ -1,0 +1,24 @@
+﻿@if(ViewBag.Parent != null){
+	<ul class="flexy-menu home vertical" id="hidden">
+      @foreach(var parent in ViewBag.Parent){
+      	<li class="flexymenuli">
+           <span class="icon-cate"></span>
+           <a href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = parent.Url })" title="@parent.Title">@parent.Title</a>
+          	@{
+          	 var child = ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("ParentUUID", parent.UUID).OrderBy("SortBy");
+      
+            }
+            @if(child != null && ((Kooboo.CMS.Content.Query.TextContentQuery)child).Any()){
+              <ul class="flexy-menu-box">
+                @foreach(var item in child){
+                	<div class="flexy-menu-inner">
+                      <a href="@Url.FrontUrl().PageUrl("san-pham", new{ Category = item["Url"] })" title="@item["Title"]" class="menu-top-red">@item["Title"]</a>
+                    </div>
+                }
+              </ul>
+            }
+             
+         </li>
+      }
+    </ul>
+}

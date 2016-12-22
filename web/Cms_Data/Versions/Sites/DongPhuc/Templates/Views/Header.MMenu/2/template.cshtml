@@ -1,0 +1,11 @@
+﻿@if(ViewBag.Menu != null){
+<nav id="mmenu">
+  <ul>
+    @foreach(var item in ViewBag.Menu){
+    <li>
+      <a href="@item.Url">@item.Name</a>
+    </li>
+    }
+  </ul>
+</nav>
+}

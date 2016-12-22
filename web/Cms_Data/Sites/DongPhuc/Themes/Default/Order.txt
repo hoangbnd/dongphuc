@@ -9,7 +9,7 @@ owl.carousel.css
 owl.theme.default.css
 owl.theme.green.css
 slick.min.css
+cloud-zoom.css
 default.css
-main.css
 styles.css
 responsive.css

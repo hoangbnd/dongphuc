@@ -1,0 +1,58 @@
+﻿@using Kooboo.CMS.Sites.Models;
+@using Kooboo.CMS.Content.Query;
+@using MembershipUser = Kooboo.CMS.Membership.Models.MembershipUser;
+@{
+    if (Request.Cookies[Site.Current.Name.ToLower()] == null) { Response.End(); }
+    var productQuery = ContentHelper.TextFolder("Product~Product").CreateQuery();
+    var obj = Json.Decode(Server.UrlDecode(Request.Cookies[Site.Current.Name.ToLower()].Value));
+    decimal totalPrice = 0;
+}
+@foreach (var cobj in obj.items)
+{
+  var item = productQuery.WhereEquals("UUID", cobj.Key).First();
+  if (item != null)
+  {
+    <form method="post" class="frmSaveCart order order-@item.UUID" action="@Url.FrontUrl().SubmissionUrl("SaveCart")" >
+      @Html.AntiForgeryToken()
+      <input type="hidden" name="JsonResult" value="true" />
+      <input type="hidden" name="Publish" value="true" />
+      <input type="hidden" name="ProductUUID" value="@item["UUID"]"/>
+      <input type="hidden" name="ProductName" value="@item["Name"]"/>
+      <input type="hidden" name="Name" class="name" value="" />
+      <input type="hidden" name="Quantity" value="@obj.items[cobj.Key].quantity"/>
+      <input type="hidden" name="Note" class="note" value="" />
+      <input type="hidden" name="Phone" class="phone" value="" />
+      <input type="hidden" name="Address" class="address" value="" />
+      <input type="hidden" name="Email" class="email" value="" />
+    </form>
+  }
+}
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnCheckOut").click(function () {
+                $("#btnCheckOut").attr("disabled", "disabled");
+                //$("#formSend").validate();
+                window.i = 0;
+                $(".order .note").val($('#note').val());
+                $(".order .phone").val($('#tel').val());
+                $(".order .address").val($('#shippingaddress').val());
+                $(".order .name").val($('#fullname').val());
+                $(".order .email").val($('#from').val());
+                $(".frmSaveCart").ajaxForm({
+                    type: 'POST',
+                    url: '@Url.FrontUrl().SubmissionUrl("SaveCart")',
+                        data: $(this).serialize(),
+                        success: function () {
+                            window.i += 1;
+                            window.submitted = true;
+                        },
+                        error: function (xhr, status, err) {
+                            window.submitted = false;
+                            alert(status + ': ' + err);
+                        }
+                    });
+                $(".frmSaveCart").submit();
+            });
+        });
+    </script>

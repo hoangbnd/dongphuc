@@ -1,0 +1,162 @@
+﻿@using Kooboo.CMS.Content.Query;
+@using Kooboo.CMS.Content.Query.Expressions
+@functions
+{
+        List<TextContent> SearchArticle(string keyWord, string folderContent, List<string> fields)
+        {
+            IContentQuery<TextContent> articles = null;
+            var result = new List<TextContent>();
+            try
+            {
+                // search by field
+                foreach (string field in fields)
+                {
+                    IWhereExpression expression = new TrueExpression();
+                    expression = new AndAlsoExpression(expression, new WhereEqualsExpression(null, "Published", true));
+                    expression = new AndAlsoExpression(expression, new WhereContainsExpression(null, field, keyWord));
+                    articles = ContentHelper.NewTextFolderObject(folderContent).CreateQuery().Where(expression).OrderByDescending("UtcCreationDate");
+                    result.AddRange(articles.ToList());
+                }
+            }
+            catch (Exception ex)
+            {
+                return new List<TextContent>();
+            }
+            //remove duplicate item in list
+            if (result.Select(o => o["UUID"].ToString()).Distinct().Count() < result.Count)
+            {
+                result = result.GroupBy(o => o["UUID"]).Select(grp => grp.FirstOrDefault()).OrderBy(o => o["UUID"]).ToList();
+            }
+            return result;
+        }
+}
+@{
+        var keyWord = HttpUtility.HtmlDecode(Page_Context.Current.PageRequestContext.AllQueryString["keyword"] ?? "").Trim();
+        var strPageIndex = Page_Context.Current.PageRequestContext.AllQueryString["pageIndex"];
+        var pageIndex = 1;
+        int pageSize = 0;
+        if (!int.TryParse(Page_Context.Current["PageSize"] != null ? Page_Context.Current["PageSize"].ToString() : "10", out pageSize))
+        {
+            pageSize = 10;
+        }
+        if (!string.IsNullOrEmpty(strPageIndex))
+        {
+            int.TryParse(strPageIndex, out pageIndex);
+        }
+
+        // setup folder content and fields to search
+
+        var folderContents = new Dictionary<string, List<string>>();// trong đó key là folderName còn value là list fieldName
+
+        folderContents.Add("Product~Product", new List<string> {"Name"});
+
+        // setup url matching with folder Contents
+
+        var urls = new Dictionary<string, string>();
+        urls.Add("Product~Product", Url.FrontUrl().PageUrl("/san-pham").ToString() + "/chi-tiet/{0}");
+        // searching
+
+        var listArticle = new List<TextContent>();
+        if (!string.IsNullOrEmpty(keyWord))
+        {
+            foreach (var folder in folderContents)
+            {
+                var articles = SearchArticle(keyWord, folder.Key, folder.Value);
+                if (articles.Any())
+                {
+                    listArticle.AddRange(articles);
+                }
+            }
+        }
+
+        // remove all item not validate
+        //listArticle.RemoveAll(o => !urls.ContainsKey(o.FolderName));
+        // pagination
+        if (!string.IsNullOrEmpty(Page_Context.Current.PageRequestContext.AllQueryString["PageIndex"]))
+        {
+            pageIndex = int.Parse(Page_Context.Current.PageRequestContext.AllQueryString["PageIndex"]);
+        }
+        var pageData = listArticle.Skip((pageIndex - 1) * pageSize).Take(pageSize);
+        dynamic pagedList = new Kooboo.CMS.Sites.DataRule.DataRulePagedList(pageData, pageIndex, pageSize, listArticle.Count()){ PageIndexParameterName = "PageIndex" };
+}    
+<!--section-list-product-->
+<div class="section-list-product">
+  <!--product-list-->
+  <div class="product-list">
+    
+    <div class="title-product bg-color-white">
+      <div class="row row-fix">
+        <div class="col-lg-12 col-fix">
+          <div class="title">
+            <a>@("Có".Label()) @pagedList.TotalItemCount @("kết quả với từ ".Label())<b>"@Request["keyword"]"</b></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--col-md-12 col-fix-->
+    <div class="col-md-12 col-fix">
+      <!--row bg-white row-fix-->
+      <div class="row bg-white row-fix">
+        
+        <!--info-card-->
+        <div class="info-card">
+        @foreach (var article in pagedList)
+        {
+          if (!urls.ContainsKey(article.FolderName)) { continue; }
+          var promotion = (decimal) article["PromotionalPrice"];
+          var price = (decimal) article["Price"];
+          var pricePromotion = price - price*promotion/100;
+          <div class="col-lg-15 col-md-3 col-sm-2 col-xs-2 col-fix product-item">
+            <div>
+              <div class="fixed-image owl-item">
+                <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = article["Url"] })" title="@article["Name"]">
+                  <img class="lazy" src="@article["Thumbnail"]" >
+                  @if(article["PromotionalPrice"].ToString().Length > 0)
+                  {
+                  <span class="ldiscount">Giảm @article["PromotionalPrice"]%</span>
+                  }
+                  @if((bool)article["Promotional"])
+                  {
+                  <div class="ico-promotion">+ Khuyến mại</div>
+                  }
+                </a>
+              </div>
+              <div class="product-name">
+                <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = article["Url"] })">@article["Name"]</a>
+              </div>
+              <b>Giá niêm yết: <span class="format-price">@String.Format("{0:C0}", price)</span></b>
+              <small class="real-price"><span class="format-price">@String.Format("{0:C0}", pricePromotion)</span></small>
+            </div>
+          </div>
+        }
+        </div><!--/info-card-->
+        
+      </div><!--/row bg-white row-fix-->
+    </div><!--/col-md-12 col-fix-->
+    
+  </div>
+  <!--/product-list-->
+  
+</div>
+<!--/section-list-product-->
+
+@{ var pageOption = new PagerOptions
+          {
+              NextPageText = "  <i class='fa fa-angle-right'></i>",
+              PrevPageText = "<i class='fa fa-angle-left'></i> ",
+              CssClass = "pagination ",
+              Id = "pagination",
+              CurrentPagerItemWrapperFormatString = "<span class=\"bold current\" >{0}</span>",
+              PagerItemWrapperFormatString = "",
+              NavigationPagerItemWrapperFormatString = "",
+              NumericPagerItemCount = 10,
+              StatisticsTextFormatString = "<!--<span><strong>page {1}</strong> of <strong>{2}</strong></span>-->"
+          };
+}
+<div class="pagination-news-event ">
+  <ul class="text-center pad0">
+    @Html.FrontHtml().Pager(pagedList, pageOption)
+  </ul>
+</div>
+        

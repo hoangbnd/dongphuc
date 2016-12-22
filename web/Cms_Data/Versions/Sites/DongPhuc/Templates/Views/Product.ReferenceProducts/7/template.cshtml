@@ -1,0 +1,72 @@
+﻿@if(ViewBag.Products != null)
+{ 
+  <div class="col-md-12 col-fix">
+    <div class="row row-fix">
+      
+      <!--section-list-product-->
+      <div class="section-list-product vertical">
+        
+        <!--product-list-->
+        <div class="product-list">
+          
+          <div class="title-product bg-color-white">
+            <div class="row row-fix">
+              
+              <div class="col-xs-12 col-fix">
+                <div class="title">
+                  <a>Sản phẩm tham khảo</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+          <!--col-md-12 col-fix-->
+          <div class="col-md-12 col-fix">
+            <!--row bg-white row-fix-->
+            <div class="row bg-white row-fix">
+              
+              <!--info-card-->
+              <div class="info-card">
+                @foreach(var item in ViewBag.Products)
+                {
+                var promotion = (decimal) item.PromotionalPrice;
+                var price = (decimal) item.Price;
+                var pricePromotion = price - price*promotion/100;
+                <div class="col-xs-md col-sm-3 col-xs-6 col-fix product-item">
+                  <div>
+                    <div class="fixed-image owl-item">
+                      <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item.Url })" title="@item.Name">
+                        <img class="lazy" src="@item.Thumbnail" >
+                        @if(!string.IsNullOrEmpty(item["PromotionalPrice"].ToString()) && (decimal)item["PromotionalPrice"] > 0 )
+                        {
+                        <span class="ldiscount">Giảm @item.PromotionalPrice%</span>
+                        }
+                        @if((bool)item.Promotional)
+                        {
+                        <div class="ico-promotion">+ Khuyến mại</div>
+                        }
+                      </a>
+                    </div>
+                    <div class="product-name">
+                      <a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new{ Userkey = item.Url })">@item.Name</a>
+                    </div>
+                    <b>Giá niêm yết: <span class="format-price">@String.Format("{0:C0}", price)</span></b>
+                    <small class="real-price"><span class="format-price">@String.Format("{0:C0}", pricePromotion)</span></small>
+                  </div>
+                </div>
+                }                
+              </div><!--/info-card-->
+              
+            </div><!--/row bg-white row-fix-->
+          </div><!--/col-md-12 col-fix-->
+          
+        </div>
+        <!--/product-list-->
+        
+      </div>
+      <!--/section-list-product-->
+      
+    </div>
+  </div>
+}

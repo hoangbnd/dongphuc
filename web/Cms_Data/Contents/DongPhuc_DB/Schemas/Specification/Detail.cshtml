@@ -3,7 +3,9 @@
 <div>
 	<h3 class="title" @ViewHelper.Edit(Model,"Name")>@Html.Raw(Model.Name ?? "")</h3>
 	<div class="content">
+		<div @ViewHelper.Edit(Model,"Url")>@Html.Raw(Model.Url ?? "")</div>
 		<div @ViewHelper.Edit(Model,"ByFilter")>@Html.Raw(Model.ByFilter ?? "")</div>
+		<div @ViewHelper.Edit(Model,"SortBy")>@Html.Raw(Model.SortBy ?? "")</div>
 	</div>
 </div>
 }

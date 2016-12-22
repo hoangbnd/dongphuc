@@ -1,0 +1,126 @@
+﻿@using System.Collections.Specialized
+@using Kooboo.CMS.Sites.Models;
+@using Kooboo.CMS.Content.Query;
+@using Kooboo.CMS.Content.Models;
+@{
+    if (Request.Cookies[Site.Current.Name.ToLower()] == null) { Response.End(); }
+    var eventQuery = ContentHelper.TextFolder("Product~Product").CreateQuery();
+    var obj = Json.Decode(Server.UrlDecode(Request.Cookies[Site.Current.Name.ToLower()].Value));
+    //nếu giỏ hàng trống thì quay về trang chủ
+    if (obj.items == null)
+    {
+        Response.Redirect(Url.FrontUrl().PageUrl("trang-chu").ToString(), true);
+    }
+
+    decimal totalPrice = 0;
+    var totalUnit = 0;
+}
+
+<h4 class="tit-des-detail text-center">@("Thông tin thanh toán".Label())</h4>
+
+<form id="formSendMail" method="post" action="@Url.FrontUrl().SubmissionUrl("Buy")" class="form-horizontal" role="form">
+  @Html.AntiForgeryToken()
+  <input type="hidden" name="IsBodyHtml" value="true" />
+  <input type="hidden" name="ReturnUrl" value="@Url.FrontUrl().PageUrl("trang-chu")"/>
+  <textarea id="body" style="" name="teamplate">
+    @{ var template = "<p style='font-size: 15px;margin:10px 0px'><b>Danh sách sản phẩm :</b></p><table cellspacing='1' style='font-size: 15px;'> <thead><tr> <th scope='col' class='column_1'  style=' padding: 2px 5px;'>Ảnh</th><th scope='col' style=' padding: 2px 5px;' class='column_2 fw'>Tên sản phẩm</th> <th scope='col' style=' padding: 2px 5px;' class='column_3 fw'>Số lượng</th>" +
+    "<th scope='col' style=' padding: 2px 5px;' class='column_4 fw'>Đơn giá</th><th scope='col' style=' padding: 2px 5px;' class='column_7 fw last'></th></tr></thead> <tbody> ";
+    foreach (var cobj in obj.items)
+    {
+      try
+      {
+    	var item = eventQuery.WhereEquals("UUID", cobj.Key).First();
+    	template += "<tr class='item_1'><td align='center' class='column_1'>";
+    	totalUnit++;
+    	decimal itemPrice = 0;
+        if(string.IsNullOrEmpty(item["PromotionalPrice"]))
+        {
+        	itemPrice = (decimal)item["Price"];
+    	}else{
+    		itemPrice = (decimal)item["Price"] - (decimal)item["Price"]*(decimal)item["PromotionalPrice"]/100;
+    	} 
+    	var itemPriceText = "Giá liên hệ";
+    	//itemPrice = 0;// sử dụng "Giá liên hệ"
+        if (itemPrice > 0)
+        {
+            itemPriceText = String.Format("{0:0,0;;0} {1}", itemPrice, "VND".Label()).Replace(",", ".");
+        }
+        else
+        {
+            itemPriceText = "Giá liên hệ";
+        }
+    
+    	var quantity = obj.items[cobj.Key].quantity;
+    	totalPrice += itemPrice * quantity;
+    	//totalPrice = 0;// sử dụng "Giá liên hệ"
+    	template += "<img src='" + Request.Url.GetLeftPart(UriPartial.Authority) + @Url.FrontUrl().ResizeImageUrl(@Url.Content(item["Thumbnail"].ToString()), 0, 100, null, 100) + "' style='height:100px;' alt='" + @item["Code"] + "' title='' class='lazy'/> ";
+    
+    	template += "</td><td align='center' class='column_2'>" + @item["Name"] + "</td><td align='center' class='column_3'>" + quantity +
+    "</td>	<td align='center' class='column_4'>" + @itemPriceText + "</td><td class='column_7'></td></tr>";
+      }
+      catch
+      {
+      }
+    }
+    if (totalPrice < 0) { Response.Clear(); Response.Flush(); Response.End(); }
+    template += "</tbody> </table>";
+    
+    @Html.Raw(template)
+    
+    }
+  </textarea>
+ 
+ 
+  <div class="form-group">
+    <label for="name" class="col-md-3 control-label">@("Họ và tên".Label())</label>
+    <div class="col-md-7">
+      <input type="text" class="form-control" name="name" placeholder="Họ và tên" required="required" id="fullname" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="email" class="col-md-3 control-label">@("Email".Label())</label>
+    <div class="col-md-7">
+      <input type="text" class="form-control" name="email" placeholder="Email" required="required" email="email" id="from" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="phone" class="col-md-3 control-label">@("Điện thoại".Label())</label>
+    <div class="col-md-7">
+      <input type="text" class="form-control" name="phone" placeholder="Điện thoại" required="required" digit="true" id="tel" />
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="shippingaddress" class="col-md-3 control-label">@("Địa chỉ".Label())</label>
+    <div class="col-md-7">
+      <textarea class="form-control" rows="3" placeholder="Địa chỉ" name="address" required="required" id="shippingaddress"></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="note" class="col-md-3 control-label">@("Ghi chú".Label())</label>
+    <div class="col-md-7">
+      <textarea class="form-control" rows="6" placeholder="Ghi chú" name="note" id="note"></textarea>
+    </div>
+  </div>
+    
+  <hr />
+  <div class="form-group">
+    <div class="col-md-offset-3 col-md-7">
+      <button type="button" class="btn btn-info" id="btnCheckOut">@("Xác nhân đơn hàng".Label())</button>
+      <button type="reset" class="btn btn-default">@("Nhập lại".Label())</button>
+    </div>
+  </div>
+</form>
+
+@Html.FrontHtml().RenderView("Product.AddCart",ViewData)
+<script type="text/javascript">
+    $(document).ajaxComplete(function () {
+        if (window.submitted) {
+            $.removeCookie('@Site.Current.Name');
+            setCartContents({ items: {} });
+            $("#btnCheckOut").removeAttr("disabled");
+            alert("Cảm ơn bạn đã tin tưởng vào sản phẩm của chúng tôi.");
+            $("#formSendMail").submit();
+        }
+    });
+</script>

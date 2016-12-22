@@ -1,0 +1,45 @@
+﻿@using Kooboo.CMS.Content.Query.Expressions;
+
+@if(ViewBag.News != null)
+{
+  var cate = ((TextContent)ViewBag.News).Categories("News~NewsCategory").FirstOrDefault();
+  if(cate != null)
+  {
+    IWhereExpression exp = new TrueExpression();
+    exp = new AndAlsoExpression(exp, new WhereEqualsExpression("Published", true));
+    exp = new AndAlsoExpression(exp, new WhereNotEqualsExpression("UUID", ViewBag.News.UUID));
+    exp = new AndAlsoExpression(exp, new WhereCategoryExpression(ContentHelper.TextFolder("News~NewsCategory").CreateQuery().WhereEquals("UUID", cate.UUID)));
+    
+    var news = ContentHelper.TextFolder("News~News").CreateQuery().Where(exp).OrderByDescending("Date").Take(10);
+    if(news != null && news.Any())
+    {
+    <div class="title-same-news">
+      @("Tin cùng chuyên mục".Label())
+    </div>
+    
+    <div class="list-news-top2 res_othercatenews">
+      @foreach(var item in news)
+      {
+        <div class="col-lg-15 col-md-3 col-sm-3 col-xs-6">
+          <div class="inner-list-news">
+            <div class="img-list-news">
+              <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item["Url"] })">
+                <img src="@item["Thumbnail"]">
+              </a>
+            </div>
+            <a href="@Url.FrontUrl().PageUrl("tin-tuc/chi-tiet", new{ UserKey = item["Url"] })" class="tit-list-news">
+              @item["Title"]
+            </a>
+            <span class="count-news">
+              @item["Date"]
+            </span>
+          </div>
+        </div>
+      }
+                    
+    </div>
+    
+    }
+    
+  }
+}

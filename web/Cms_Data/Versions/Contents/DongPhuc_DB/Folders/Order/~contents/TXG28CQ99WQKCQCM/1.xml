@@ -1,0 +1,95 @@
+﻿<VersionInfo xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Content.Versioning">
+	<CommitUser>admin</CommitUser>
+	<UtcCommitDate>2016-12-21T21:54:15.349005+07:00</UtcCommitDate>
+	<TextContent xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserKey</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Vu-Gia-Son</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Id</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string"></d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcCreationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-21T21:54:15.349005+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UtcLastModificationDate</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:dateTime">2016-12-21T21:54:15.349005+07:00</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UUID</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">TXG28CQ99WQKCQCM</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Repository</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">DongPhuc_DB</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>FolderName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Order</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>SchemaName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Order</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Name</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Vu Gia Son</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Phone</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">0984597232</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Email</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">vugiason@gmail.com</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Address</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">101 Láng Hạ</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Note</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">Test</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ProductUUID</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">JA2JWLYNARWJ8L4K</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ProductName</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">TIVI LED TOSHIBA 40L3650 FULL HD 40INCH</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Quantity</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">2</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Status</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Published</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:boolean">true</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentFolder</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>ParentUUID</d2p1:Key>
+			<d2p1:Value i:nil="true" />
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>UserId</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:string">admin</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+		<d2p1:KeyValueOfstringanyType>
+			<d2p1:Key>Sequence</d2p1:Key>
+			<d2p1:Value xmlns:d4p1="http://www.w3.org/2001/XMLSchema" i:type="d4p1:int">1</d2p1:Value>
+		</d2p1:KeyValueOfstringanyType>
+	</TextContent>
+	<Categories />
+</VersionInfo>

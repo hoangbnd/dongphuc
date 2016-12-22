@@ -214,8 +214,15 @@ body{
     line-height: 1;
     color: #1a171b;
     min-height: 100%;
+  	padding: 0!important
+}
+.modal{
+	z-index: 999999;
 }
 
+.cloud-zoom-wrap{
+	z-index: 99;
+}
 .col-fix {
     padding-right:5px;
     padding-left:5px;
@@ -242,6 +249,9 @@ body{
   	line-height: 31px;
 }
 
+.padding-left-15{
+	padding-left: 15px;
+}
 
 /************header************/
 .header-top {
@@ -307,44 +317,15 @@ body{
     padding: 0 30px;
     line-height: 50px;
 }
-.support-header ul li a{
-    padding-left: 15px;
+.support-header ul li .support-text{
+    padding-left: 10px;
 }
-.sup-a {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -37px -241px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 32px;
-    width: 32px;
-}
-.sup-b {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -37px -282px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 32px;
-    width: 32px;
-}
-.sup-c {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -37px -323px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 32px;
-    width: 32px;
-}
-.sup-d {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -37px -365px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 32px;
-    width: 32px;
-}
-.sup-e {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -37px -405px;
-    display: inline-block;
-    vertical-align: middle;
-    height: 32px;
-    width: 32px;
-}
+.sup-a{background:rgba(0,0,0,0) url(img/icon.png) no-repeat scroll 0 -251px;display:inline-block;height:32px;width:34px;vertical-align: middle}
+.sup-b{background:rgba(0,0,0,0) url(img/icon.png) no-repeat scroll 0 -290px;display:inline-block;height:32px;width:34px;vertical-align: middle}
+.sup-c{background:rgba(0,0,0,0) url(img/icon.png) no-repeat scroll 0 -331px;display:inline-block;height:32px;width:34px;vertical-align: middle}
+.sup-d{background:rgba(0,0,0,0) url(img/icon.png) no-repeat scroll 0 -372px;display:inline-block;height:32px;width:34px;vertical-align: middle}
+.sup-e{background:rgba(0,0,0,0) url(img/icon.png) no-repeat scroll 0 -413px;display:inline-block;height:32px;width:34px;vertical-align: middle}
+
 
 /*****************footer*********************/
 .footer-top{
@@ -367,10 +348,9 @@ body{
     margin-top: 20px;
 }
 .icon-arr {
-    background: rgba(0,0,0,0) url(https://lib.trananh.com.vn/img/icon.png) no-repeat scroll -57px -96px;
-    display: block;
-    float: left;
-    height: 14px;
+    background: rgba(0,0,0,0) url(img/icon.png) -175px -316px no-repeat;
+    display: inline-block;
+    height: 15px;
     width: 4px;
 }
 .footer-top ul li a {
@@ -465,13 +445,15 @@ body{
 .hidden-version{
 	display: none;
 }
-
+.flexy-menu.home{
+	display: block;
+}
 .flexy-menu {
     background: #fff none repeat scroll 0 0;
     left: 5px;
     position: absolute;
     top: 5px;
-    z-index: 6;
+    z-index: 99999;
 }
 .hidden-version.flexy-menu{
 	top: 100%;
@@ -493,6 +475,10 @@ body{
     padding: 0;
     border-bottom: 1px dotted #ccc;
 }
+.flexy-menu .showhide{
+	display:none!important;
+}
+
 .flexy-menu > li > a {
     color: #666!important;
     display: block;
@@ -643,6 +629,17 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     box-shadow: 0 1px 2px rgba(0,0,0,.075);
 }
 /**************product-list****************/
+.cart-top-header{
+    line-height: 38px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+.cart-top-header:hover, .cart-top-header:focus{
+	color: #fff;
+  	outline: none;
+}
 
 .product-list{
     margin-top:5px;
@@ -650,10 +647,16 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
   	width:100%;
 }
 .title {
+  	display: inline-block;
     background: #105caa none repeat scroll 0 0;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
 }
+
+.section-list-product.vertical .title{
+	width: 100%;
+}
+
 .title a {
     color: #fff;
     font-size: 12px;
@@ -662,7 +665,8 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     line-height: 37px;
     text-transform: uppercase;
     text-decoration: none;
-    padding-left: 10px;
+    padding: 0 10px;
+    min-width: 190px;	
 }
 
 .title.custom a{
@@ -761,6 +765,15 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 .product-item>div{
     border-right: 1px solid #f1f1f1;
 }
+.section-list-product.vertical .product-item>div{
+	border: none;
+}
+.section-list-product.vertical .product-item{
+	border-bottom: 1px solid #f1f1f1;
+}
+.section-list-product.vertical .product-item:last-child{
+	border: none;
+}
 .product-item:last-child>div {
     border: none;
 }
@@ -770,6 +783,15 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
   border-right: 1px solid #f1f1f1;
   border-bottom: solid 2px #f1f1f1;
 }
+.product-item-list-pagging.product-item>div{
+	border: none;
+}
+.info-card{
+	width: 100%;
+  	display: inline-block;
+}
+
+
 
 .box-tab {
     background-color: #105caa;
@@ -803,7 +825,17 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     font-size: 12px;
     font-weight: 400;
     padding: 0 5px;
+  	position: relative;
 }
+.bb_content a.active:before{
+	content: "[x]";
+  	position: absolute;
+    right: -15px;
+    top: 1px;
+    color: #f00;
+    font-weight: bold;
+}
+
 .bb_content span{
 	line-height: 20px;
 }
@@ -828,6 +860,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 .sc_item {
     display: inline;
     float: left;
+  	padding-top: 10px;
     padding-bottom: 5px;
     position: relative;
     width: 100%;
@@ -837,10 +870,22 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     padding: 0 7px;
     display: inline-block;
 }
+
 /******************news*********************/
+aside{
+	display: inline-block;
+  	width: 100%;
+  	margin-bottom: 10px;
+}
+
 #content{
 	padding-bottom: 30px
 }
+
+.news-main{
+	padding: 0 15px;
+}
+
 .tit-news-main {
     font-size: 24px;
     line-height: 150%;
@@ -870,6 +915,14 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 	list-style: initial;
   	padding-left: 20px
 }
+
+.news-content img{
+	max-width: 100%;
+  	height: auto!important;
+}
+.news-content table{
+	max-width: 100%;
+}
 .box-tab-news{
 	background-color: #ddd;
     border-left: 1px solid #c3c3c3;
@@ -879,7 +932,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     font-style: normal;
     font-weight: 700;
     height: 43px;
-    margin: 10px 0 0;
+    margin: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -903,6 +956,9 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
+}
+.bb_content-news .news-second{
+	width: 100%;
 }
 
 .tit-main-news {
@@ -939,6 +995,16 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     float: left;
     line-height: 20px;
 }
+
+.list-recruitment .title-news-page{
+	margin-top: 0;
+}
+.time-post-news {
+    color: #999;
+    font-style: italic;
+    margin: 15px 0;
+}
+
 .news-second {
     border-bottom: 1px solid #ccc;
     height: auto;
@@ -946,6 +1012,11 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     width: 294px;
   	display: inline-block;
 }
+
+.list-recruitment .news-second{
+	width: 100%
+}
+
 .img-news-second {
     float: left;
     padding: 0 7px;
@@ -954,7 +1025,10 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 	width: 92px;
   	height: 69px;
 }
-
+.list-recruitment .img-news-second img{
+	width: 300px;
+  	height: auto;
+}
 .title-same-news {
     background: #fff none repeat scroll 0 0;
     border-bottom: 1px solid #ccc;
@@ -975,6 +1049,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 .inner-list-news {
     border: 1px solid #ccc;
     float: left;
+  	margin-bottom: 10px;
 }
 
 .tit-list-news{
@@ -1005,6 +1080,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     margin: 0;
     text-transform: uppercase;
     line-height: 140%;
+  	margin-bottom: 10px;
 }
 
 .product-summary ul {
@@ -1103,7 +1179,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     line-height: 123%;
 }
 
-.buynow:hover {
+.buynow:hover, .buynow:focus{
     color: #fff!important;
     opacity: .8;
     text-decoration: none!important;
@@ -1131,6 +1207,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 #product-tab .nav li a:hover, #product-tab .nav li a:focus {
     background: #999 none repeat scroll 0 0;
   	color: #fff;
+  	outline: none;
 }
 #product-tab li a.current, #product-tab li a.current:hover {
     -moz-border-bottom-colors: none;
@@ -1142,7 +1219,7 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
     border-image: none;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    color: #000;
+    color: #000!important;
     border: solid 1px #e6e6e6;
     border-bottom: none;
 }
@@ -1158,6 +1235,42 @@ ul.flexy-menu li.flexymenuli:nth-child(11) span.icon-cate{background-position:0 
 #product-tab .list-wrap {
     border: 1px solid #e6e6e6;
     padding: 10px;
+}
+
+#product-tab .nav-tabs {
+    border-bottom: none!important;
+}
+
+.gallery-sample a.cloud-zoom {
+  position: relative;
+  display: block;
+}
+.gallery-sample a.cloud-zoom img {
+  display: block;
+  text-align: center;
+}
+
+.cloud-zoom-title{
+	display: none!important;
+}
+.cloud-zoom-lens, .cloud-zoom-big{
+  border: 1px solid #ccc;
+}
+.product-detail-content{
+	padding-bottom: 5px;
+}
+
+.quantity{
+    width: 100px!important;
+    border-radius: 0;
+}
+.table-cart tr, .table-cart td {
+  	vertical-align: middle!important;
+}
+
+.btn.btn-default{
+	background: #105caa;
+    color: #fff;
 }
 
 /***************key frame******************/

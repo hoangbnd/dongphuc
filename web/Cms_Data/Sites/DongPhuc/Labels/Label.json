@@ -16,5 +16,230 @@
     "UtcCreationDate": "2016-12-11T03:46:52.3042373Z",
     "UtcLastestModificationDate": null,
     "LastestEditor": "admin"
+  },
+  {
+    "UUID": "CVTGBD767R",
+    "Name": "Giỏ hàng",
+    "Value": "Giỏ hàng",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:07:36.8809409Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "U8C4FFUT9A",
+    "Name": "Tên sản phẩm",
+    "Value": "Tên sản phẩm",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.8230158Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "E6Z2YV789Q",
+    "Name": "Số lượng",
+    "Value": "Số lượng",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.8260179Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "MWKYPK4QY7",
+    "Name": "Giá",
+    "Value": "Giá",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.82802Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "LY9FVLCK7N",
+    "Name": "Tổng tiền:",
+    "Value": "Tổng tiền:",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.8310215Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "J7GJGNKUPJ",
+    "Name": "Tiếp tục mua sẳm",
+    "Value": "Tiếp tục mua sẳm",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.834023Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "JMQAAZG5D6",
+    "Name": "Xem giỏ hàng",
+    "Value": "Xem giỏ hàng",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T14:36:29.8420293Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "3FB2ZVMK49",
+    "Name": "#",
+    "Value": "#",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:14.4665917Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "U2JFM6DWNZ",
+    "Name": "Ảnh",
+    "Value": "Ảnh",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:14.4876079Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "2MD4VLXGUD",
+    "Name": "Giá đơn vị",
+    "Value": "Giá đơn vị",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:14.498617Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "J3QG4RLUQ4",
+    "Name": "VND",
+    "Value": "VND",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:14.5706726Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "BGNLU8RFF5",
+    "Name": "Total",
+    "Value": "Total",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:15.0108574Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "5F2WHX3GKY",
+    "Name": "Tiếp tục mua sắm",
+    "Value": "Tiếp tục mua sắm",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:15.0228865Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "LJJZMQXLGT",
+    "Name": "Thanh toán",
+    "Value": "Thanh toán",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:24:15.0598858Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "CCEVTU6SCA",
+    "Name": "Giá liên hệ",
+    "Value": "Giá liên hệ",
+    "Category": "",
+    "UtcCreationDate": "2016-12-20T15:37:54.6583624Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "V74MG74ULC",
+    "Name": "Thông tin thanh toán",
+    "Value": "Thông tin thanh toán",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.4038516Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "PEJM2ENJFH",
+    "Name": "Họ và tên",
+    "Value": "Họ và tên",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.5994687Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "22S3QAWHA4",
+    "Name": "Email",
+    "Value": "Email",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.6064723Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "DJPRHSJPUC",
+    "Name": "Điện thoại",
+    "Value": "Điện thoại",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.613478Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "YMZZJ974WJ",
+    "Name": "Địa chỉ",
+    "Value": "Địa chỉ",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.6204829Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "Q2N56QLNQV",
+    "Name": "Ghi chú",
+    "Value": "Ghi chú",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.6294887Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "FH34URZNSM",
+    "Name": "Xác nhân đơn hàng",
+    "Value": "Xác nhân đơn hàng",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.6354916Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "U8BJBZMJSF",
+    "Name": "Nhập lại",
+    "Value": "Nhập lại",
+    "Category": "",
+    "UtcCreationDate": "2016-12-21T14:38:28.6374924Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "7A5BVWZQSD",
+    "Name": "Có",
+    "Value": "Có",
+    "Category": "",
+    "UtcCreationDate": "2016-12-22T08:14:41.4707248Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
+  },
+  {
+    "UUID": "2GRW7EV9BY",
+    "Name": "kết quả với từ ",
+    "Value": "kết quả với từ ",
+    "Category": "",
+    "UtcCreationDate": "2016-12-22T08:14:41.4861255Z",
+    "UtcLastestModificationDate": null,
+    "LastestEditor": "admin"
   }
 ]

@@ -1,0 +1,121 @@
+﻿@if (@Page_Context.Current.PageRequestContext.AllQueryString["act"] == "clear-cart" && Request.Cookies[Site.Current.Name.ToLower()] != null)
+{
+
+    var myCookie = new HttpCookie(Site.Current.Name.ToLower())
+    {
+        Expires = DateTime.Now.AddDays(-1d)
+    };
+    Response.Cookies.Add(myCookie);
+
+}
+<div class="view-cart">
+    <div class="row">
+        <div class="col-md-12">
+
+            <!-- Table -->
+            <table class="table table-bordered table-hover table-striped table-cart" id="cartdetail">
+                <thead>
+                    <tr>
+                        <th>@("#".Label())</th>
+                        <th>@("Tên sản phẩm".Label())</th>
+                        <th>@("Ảnh".Label())</th>
+                        <th>@("Số lượng".Label())</th>
+                        <th>@("Giá đơn vị".Label())</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{decimal totalPrice = 0; int totalUnit = 0;}
+                    @if (Request.Cookies[Site.Current.Name.ToLower()] != null)
+                    {
+                        var eventQuery = ContentHelper.TextFolder("Product~Product").CreateQuery();
+                        var obj = Json.Decode(Server.UrlDecode(Request.Cookies[Site.Current.Name.ToLower()].Value));
+                        foreach (var cobj in obj.items)
+                        {
+                            try
+                            {
+                                var item = eventQuery.WhereEquals("UUID", cobj.Key).First();
+                                decimal itemPrice = 0;
+                                if (item["Price"] != null)
+                                {
+                                    itemPrice = (decimal)item["Price"];
+                                }
+                                if (item["SalePrice"] != null)
+                                {
+                                    itemPrice = (decimal)item["Price"] - (decimal)item["Price"]*(decimal)item["PromotionalPrice"]/100;
+                                }
+
+                                var itemPriceText = String.Format("{0:0,0;;0} {1}", itemPrice, "VND".Label()).Replace(",", ".");
+                                var quantity = obj.items[cobj.Key].quantity;
+                                totalPrice += itemPrice * quantity;
+                                totalUnit++;
+
+                        <tr>
+                            <!-- Index -->
+                            <td>@totalUnit</td>
+                            <!-- Product  name -->
+                            <td><a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new { UserKey = item["Url"] })">@item.Name</a></td>
+                            <!-- Product image -->
+                            <td><a href="@Url.FrontUrl().PageUrl("san-pham/chi-tiet", new { UserKey = item["Url"] })">
+                                <img src="@Url.FrontUrl().ResizeImageUrl(item.Thumbnail, 80, 80, false, 100)" alt="@item.Name" /></a></td>
+                            <!-- Quantity with refresh and remove button -->
+                            <td>
+                                <div class="input-group">
+                                    <input type="text" class="form-control quantity" placeholder="1" value="@quantity">
+                                    <span class="input-group-btn">
+                                        <input type="hidden" value="@item.UUID" class="uuid" />
+                                        <button class="btn btn-custom btn-default updateCartItem" type="button" onclick="UpdateCart(this)"><i class="fa fa-refresh"></i></button>
+                                        <button class="btn btn-custom btn-danger" type="button" onclick="removeFromCart(this, '@item.UUID')"><i class="fa fa-times"></i></button>
+                                    </span>
+                                </div>
+                            </td>
+                            <!-- Unit price -->
+                            <td>@(itemPrice == 0 ? "Giá liên hệ".Label() : Html.Raw(itemPriceText))</td>
+                        </tr>
+                            }
+                            catch
+                            {
+
+                            }
+                        }
+                    }
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>@("Total".Label())</th>
+                        <th>@(totalPrice == 0 ? "Giá liên hệ".Label() : Html.Raw(String.Format("{0:0,0;;0} {1}", totalPrice, "VND".Label()).Replace(",", ".")))</th>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="sep-bor"></div>          
+          
+            <!-- Button s-->
+            <div>
+              <div class="span4 offset8">
+                <div class="pull-right">
+                  <a href="@Url.FrontUrl().PageUrl("trang-chu")" class="btn btn-custom btn-default">@("Tiếp tục mua sắm".Label())</a>
+                  @if (totalUnit > 0)
+                  {
+                  
+                  <a id="checkout" href="@Url.FrontUrl().PageUrl("~/san-pham/thanh-toan")" class="btn btn-custom btn-danger">@("Thanh toán".Label())</a>
+                  }
+                </div>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function UpdateCart(obj) {
+        var quantity = $(obj).parent().parent().find(".quantity").val();
+        if (quantity > 0) {
+            var uuid = $(obj).parent().find(".uuid").val();
+            updateCartItem(uuid, obj, quantity);
+        }
+        else {
+            alert("Bạn chưa cập nhật giỏ hàng");
+        }
+    };
+</script>
