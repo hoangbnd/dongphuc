@@ -18,7 +18,7 @@
 
 <h4 class="tit-des-detail text-center">@("Thông tin thanh toán".Label())</h4>
 
-<form id="formSendMail" method="post" action="@Url.FrontUrl().SubmissionUrl("Buy")" class="form-horizontal" role="form">
+<form id="formSendMail" method="post" action="@Url.FrontUrl().SubmissionUrl("SendMailBuy")" class="form-horizontal" role="form">
   @Html.AntiForgeryToken()
   <input type="hidden" name="IsBodyHtml" value="true" />
   <input type="hidden" name="ReturnUrl" value="@Url.FrontUrl().PageUrl("trang-chu")"/>
@@ -70,8 +70,7 @@
     }
     template += "</tbody> </table>";
     
-    @Html.Raw(template)
-    
+    @HttpUtility.UrlEncode(template);
     }
   </textarea>
    
@@ -110,7 +109,7 @@
   <hr />
   <div class="form-group">
     <div class="col-md-offset-3 col-md-7">
-      <button type="button" class="btn btn-info" id="btnCheckOut">@("Xác nhân đơn hàng".Label())</button>
+      <button type="submit" class="btn btn-info" id="btnCheckOut">@("Xác nhân đơn hàng".Label())</button>
       <button type="reset" class="btn btn-default">@("Nhập lại".Label())</button>
     </div>
   </div>
@@ -123,8 +122,31 @@
             $.removeCookie('@Site.Current.Name');
             setCartContents({ items: {} });
             $("#btnCheckOut").removeAttr("disabled");
-            alert("Cảm ơn bạn đã tin tưởng vào sản phẩm của chúng tôi.");
-            $("#formSendMail").submit();
         }
     });
+  
+  $(document).ready(function(){
+    $("#btnCheckOut").click(function(){
+    	$('#formSendMail').submit();
+    });
+    
+  	$('#formSendMail').ajaxForm({
+        sync: true,
+        resetForm: true,
+        beforeSend: function () {
+            var form = $('#formSendMail');
+            form.find("[type=submit]").addClass("disabled").attr("disabled", true);
+        },
+        success: function (data, statusText, xhr, $form) {
+          	alert("Cảm ơn bạn đã tin tưởng vào sản phẩm của chúng tôi.");
+          	document.location.href = '/';
+            $form.find("[type=submit]").removeClass("disabled").removeAttr("disabled");
+        },
+        error: function (response, status, err, $form) {
+            var form = $('#formSendMail');
+            form.find("[type=submit]").removeClass('disabled').removeAttr('disabled');
+        }
+    });
+  });
+  
 </script>

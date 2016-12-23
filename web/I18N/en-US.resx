@@ -3199,4 +3199,13 @@ Are you sure you want to use this size?</value>
   <data name="cache" xml:space="preserve">
     <value>cache</value>
   </data>
+  <data name="View plug-in types" xml:space="preserve">
+    <value>View plug-in types</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>FullName</value>
+  </data>
+  <data name="BaseType" xml:space="preserve">
+    <value>BaseType</value>
+  </data>
 </root>

@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
 	<LastAction>
-		<FolderName>Recruitment</FolderName>
-		<ContentSummary>THÔNG BÁO TUYỂN DỤNG TRUNG TÂM KHO VẬN - THANH TRÌ LẦN 2</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2016-12-22T09:43:12.5607098Z</UtcActionDate>
-	</LastAction>
-	<LastAction>
-		<FolderName>Recruitment</FolderName>
-		<ContentSummary>THÔNG BÁO TUYỂN DỤNG TRUNG TÂM KHO VẬN - THANH TRÌ</ContentSummary>
+		<FolderName>Order</FolderName>
+		<ContentSummary>A Văn dMin</ContentSummary>
 		<Action>Add</Action>
-		<UtcActionDate>2016-12-22T09:42:47.480807Z</UtcActionDate>
+		<UtcActionDate>2016-12-23T14:48:36.3363011Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh P4</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2016-12-22T09:34:26.2083354Z</UtcActionDate>
+		<FolderName>Order</FolderName>
+		<ContentSummary>A Văn dMin</ContentSummary>
+		<Action>Add</Action>
+		<UtcActionDate>2016-12-23T14:40:24.973518Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh p3.2</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2016-12-22T09:34:16.1904112Z</UtcActionDate>
+		<FolderName>Order</FolderName>
+		<ContentSummary>A Văn dMin</ContentSummary>
+		<Action>Add</Action>
+		<UtcActionDate>2016-12-23T14:37:31.4242346Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>News~News</FolderName>
-		<ContentSummary>Trải nghiệm sản phẩm - Nhận quà hấp dẫn cùng Panasonic và Trần Anh p3</ContentSummary>
-		<Action>Update</Action>
-		<UtcActionDate>2016-12-22T09:34:00.3238905Z</UtcActionDate>
+		<FolderName>Order</FolderName>
+		<ContentSummary>A Văn dMin</ContentSummary>
+		<Action>Add</Action>
+		<UtcActionDate>2016-12-23T14:35:28.9921742Z</UtcActionDate>
+	</LastAction>
+	<LastAction>
+		<FolderName>Order</FolderName>
+		<ContentSummary>A Văn dMin</ContentSummary>
+		<Action>Add</Action>
+		<UtcActionDate>2016-12-23T14:25:04.5667492Z</UtcActionDate>
 	</LastAction>
 </ArrayOfLastAction>

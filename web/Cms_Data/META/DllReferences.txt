@@ -1,0 +1,674 @@
+﻿[
+  {
+    "AssemblyName": "CookComputing.XmlRpcV2.dll",
+    "Version": "2.5.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DiffPlex.dll",
+    "Version": "1.2.0.38654",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "dotless.Core.dll",
+    "Version": "1.4.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.AspNet.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.Core.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.OAuth.Consumer.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.OAuth.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.OpenId.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "DotNetOpenAuth.OpenId.RelyingParty.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "EntityFramework.dll",
+    "Version": "6.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "EntityFramework.SqlServer.dll",
+    "Version": "6.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "EPPlus.dll",
+    "Version": "3.1.3.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "HtmlAgilityPack.dll",
+    "Version": "1.4.6.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Ionic.Zip.Reduced.dll",
+    "Version": "1.9.1.8",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Account.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Caching.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Common.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Common.Runtime.Dependency.Ninject.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Content.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Form.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Membership.dll",
+    "Version": "1.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.PluginSendEmailTo.dll",
+    "Version": "1.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Search.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.SecurityUpdates.dll",
+    "Version": "1.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Sites.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Sites.TemplateEngines.Razor.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Toolkit.Controls.dll",
+    "Version": "4.4.0.730",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Toolkit.dll",
+    "Version": "4.4.0.730",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.CMS.Web.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.dll",
+    "Version": "4.4.0.813",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.Modules.XLIFF.dll",
+    "Version": "0.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Kooboo.Modules.XLSX.dll",
+    "Version": "4.4.0.418",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "log4net.dll",
+    "Version": "1.2.11.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Lucene.Net.Contrib.Highlighter.dll",
+    "Version": "2.3.2.1",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Lucene.Net.dll",
+    "Version": "3.0.3.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Microsoft.CSharp.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Microsoft.Threading.Tasks.dll",
+    "Version": "1.0.12.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Microsoft.Threading.Tasks.Extensions.Desktop.dll",
+    "Version": "1.0.16.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Microsoft.Threading.Tasks.Extensions.dll",
+    "Version": "1.0.12.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Microsoft.Web.Infrastructure.dll",
+    "Version": "1.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Mono.Math.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Newtonsoft.Json.dll",
+    "Version": "4.5.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Ninject.dll",
+    "Version": "3.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "NuGet.Core.dll",
+    "Version": "1.6.30117.9648",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Org.Mentalis.Security.Cryptography.dll",
+    "Version": "4.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.ComponentModel.DataAnnotations.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Configuration.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Data.DataSetExtensions.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Data.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Data.Linq.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Drawing.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Net.Http.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Net.Http.Extensions.dll",
+    "Version": "2.1.10.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Net.Http.Primitives.dll",
+    "Version": "2.1.10.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Net.Http.WebRequest.dll",
+    "Version": "2.1.10.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Runtime.Caching.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Runtime.dll",
+    "Version": "2.6.7.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Threading.Tasks.dll",
+    "Version": "2.6.7.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Abstractions.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.ApplicationServices.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.DynamicData.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Entity.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Extensions.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Helpers.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Mvc.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Razor.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Routing.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.Services.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.WebPages.Administration.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.WebPages.Deployment.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.WebPages.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Web.WebPages.Razor.dll",
+    "Version": "2.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Xml.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "System.Xml.Linq.dll",
+    "Version": "4.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "VG.Yaml.dll",
+    "Version": "1.0.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Web.dll",
+    "Version": "4.3.8.218",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Web.MikValencia.dll",
+    "Version": "4.3.8.218",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "YamlDotNet.Core.dll",
+    "Version": "2.0.1.27808",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "YamlDotNet.dll",
+    "Version": "3.3.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "YamlDotNet.Dynamic.dll",
+    "Version": "3.2.0.0",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "YamlDotNet.RepresentationModel.dll",
+    "Version": "2.0.1.27808",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  },
+  {
+    "AssemblyName": "Zlib.Portable.dll",
+    "Version": "1.9.1.9000",
+    "IsSystemAssembly": true,
+    "UserList": [
+      "System"
+    ]
+  }
+]
