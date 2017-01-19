@@ -98,7 +98,7 @@
       <select type="text" name="category" id="searchBox-category">
         <option value="">Chọn danh mục</option>
         @foreach(var item in listCate){
-        	<option value="@item["Title"]">@item["Title"]</option>
+        	<option value="@item["Url"]">@item["Title"]</option>
         }
       </select>
     </div>
@@ -136,9 +136,8 @@
       var cateQuery = $(this).val();
       if(cateQuery.length > 0){
         var currentQuery = getParameterByName("category", queryStr);
-        
         if (currentQuery) {
-          queryStr = queryStr.replace(currentQuery, cateQuery);
+          queryStr = queryStr.replace(decodeURIComponent(currentQuery), cateQuery);
         } else {
           queryStr += "&category=" + cateQuery;
         }
@@ -146,6 +145,7 @@
         var currentQuery = getParameterByName("category", queryStr);
         queryStr = queryStr.replace("&category=" + currentQuery, "")
       }
+      
       location.href = window.location.pathname + queryStr;
     });
     
