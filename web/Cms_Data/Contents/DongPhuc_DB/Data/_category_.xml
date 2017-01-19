@@ -201,21 +201,6 @@
 		<ContentUUID>CHZ2H56Q6WE7LY65</ContentUUID>
 	</Category>
 	<Category>
-		<CategoryFolder>Product~ProductCategory</CategoryFolder>
-		<CategoryUUID>DXD25ZN8LJJ3XPMG</CategoryUUID>
-		<ContentUUID>GHN2XWT5N694CG5K</ContentUUID>
-	</Category>
-	<Category>
-		<CategoryFolder>Product~ProductCategory</CategoryFolder>
-		<CategoryUUID>DEW29UQJS3BU4ES4</CategoryUUID>
-		<ContentUUID>GHN2XWT5N694CG5K</ContentUUID>
-	</Category>
-	<Category>
-		<CategoryFolder>Product~ProductCategory</CategoryFolder>
-		<CategoryUUID>BET29PVLQ4EACX8F</CategoryUUID>
-		<ContentUUID>GHN2XWT5N694CG5K</ContentUUID>
-	</Category>
-	<Category>
 		<CategoryFolder>Product~Product</CategoryFolder>
 		<CategoryUUID>JA2JWLYNARWJ8L4K</CategoryUUID>
 		<ContentUUID>GHN2XWT5N694CG5K</ContentUUID>
@@ -389,5 +374,10 @@
 		<CategoryFolder>News~NewsCategory</CategoryFolder>
 		<CategoryUUID>ZC3284XUTRENXAHU</CategoryUUID>
 		<ContentUUID>AS7JPF6MMN4CLZCJ</ContentUUID>
+	</Category>
+	<Category>
+		<CategoryFolder>Product~ProductCategory</CategoryFolder>
+		<CategoryUUID>TWM2B5K8YDG55ZDH</CategoryUUID>
+		<ContentUUID>GHN2XWT5N694CG5K</ContentUUID>
 	</Category>
 </ArrayOfCategory>
