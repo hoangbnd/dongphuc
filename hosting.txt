@@ -1,0 +1,23 @@
+baod6429_db
+baod6429_user/Zfod_210
+
+
+M?t Bão xin cung c?p l?i thông tin cho quý khách nhu sau :
+
+1. Thông tin qua?n tri? Cloud-Hosting 
+
++ Link truy câ?p : http://112.78.2.68:8787
+
++ Tài kho?n : baod6429
+
++ M?t kh?u : HScpR838@
+
+------------------------------------------------------------------------------------------
+
+2. Thông tin k?t n?i FTP:
+
++  IP : 112.78.2.68
+
++ Tài kho?n : baod6429
+
++ M?t kh?u : HScpR838@
