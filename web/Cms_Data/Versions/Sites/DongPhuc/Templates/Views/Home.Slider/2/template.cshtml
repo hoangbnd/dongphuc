@@ -1,0 +1,13 @@
+﻿@if(ViewBag.Slider != null)
+{
+<div class="owl-carousel">
+  @foreach(var item in ViewBag.Slider){
+    <div class="item">
+      <a href="@item.Url">
+        <img src="@item.Thumbnail" />
+      </a>
+    </div>
+  }
+  
+</div>
+}

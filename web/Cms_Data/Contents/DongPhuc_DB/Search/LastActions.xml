@@ -2,32 +2,32 @@
 <ArrayOfLastAction xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Kooboo.CMS.Search.Models">
 	<LastAction>
 		<FolderName>Order</FolderName>
-		<ContentSummary>A Văn dMin</ContentSummary>
+		<ContentSummary>acss</ContentSummary>
 		<Action>Add</Action>
-		<UtcActionDate>2016-12-23T14:48:36.3363011Z</UtcActionDate>
+		<UtcActionDate>2017-01-19T03:45:12.2604689Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
 		<FolderName>Order</FolderName>
 		<ContentSummary>A Văn dMin</ContentSummary>
 		<Action>Add</Action>
-		<UtcActionDate>2016-12-23T14:40:24.973518Z</UtcActionDate>
+		<UtcActionDate>2017-01-19T03:43:29.417984Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Order</FolderName>
-		<ContentSummary>A Văn dMin</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2016-12-23T14:37:31.4242346Z</UtcActionDate>
+		<FolderName>Product~ProductCategory</FolderName>
+		<ContentSummary>Laptop</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2017-01-19T03:07:54.2432047Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Order</FolderName>
-		<ContentSummary>A Văn dMin</ContentSummary>
-		<Action>Add</Action>
-		<UtcActionDate>2016-12-23T14:35:28.9921742Z</UtcActionDate>
+		<FolderName>Product~Product</FolderName>
+		<ContentSummary>TIVI LED TOSHIBA 40L3650 FULL HD 30INCH v2</ContentSummary>
+		<Action>Update</Action>
+		<UtcActionDate>2017-01-19T03:07:12.1623068Z</UtcActionDate>
 	</LastAction>
 	<LastAction>
-		<FolderName>Order</FolderName>
-		<ContentSummary>A Văn dMin</ContentSummary>
+		<FolderName>Slider</FolderName>
+		<ContentSummary>Slide 5</ContentSummary>
 		<Action>Add</Action>
-		<UtcActionDate>2016-12-23T14:25:04.5667492Z</UtcActionDate>
+		<UtcActionDate>2017-01-19T03:00:38.5016538Z</UtcActionDate>
 	</LastAction>
 </ArrayOfLastAction>

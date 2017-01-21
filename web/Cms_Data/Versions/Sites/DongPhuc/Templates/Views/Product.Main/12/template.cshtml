@@ -1,0 +1,14 @@
+﻿@if(ViewBag.ProductCate != null)
+{
+	var categoryChild = ContentHelper.TextFolder("Product~ProductCategory").CreateQuery().WhereEquals("ParentUUID", ViewBag.ProductCate.UUID).WhereEquals("Published", True);
+
+    if(categoryChild != null && categoryChild.Length > 0){
+    	@Html.FrontHtml().RenderView("Product.ListCategoryParent",ViewData)
+	}else{
+		@Html.FrontHtml().RenderView("Product.ListCateChild",ViewData)
+	}
+	
+}else
+{
+	@Html.FrontHtml().RenderView("Product.ListCateChild",ViewData)
+}

@@ -9,14 +9,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="https://lib.trananh.com.vn/img/logo.png" /></a>
+      <a class="navbar-brand" href="/"><img src="https://lib.trananh.com.vn/img/logo.png" /></a>
     </div>
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      @if(Viewbag.Menu){
+      @if(ViewBag.Menu){
       	<ul class="nav navbar-nav pull-right">
-          @foreach(var item in Viewbag.Menu){
+          @foreach(var item in ViewBag.Menu){
             <li>
               <a href="@item.Url">@item.Name</a>
             </li>

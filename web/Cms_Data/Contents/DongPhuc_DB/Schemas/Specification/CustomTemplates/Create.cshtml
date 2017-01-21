@@ -1,0 +1,92 @@
+﻿
+@using Kooboo.CMS.Content.Models;
+@using Kooboo.CMS.Content.Query;
+@{ var schema = (Kooboo.CMS.Content.Models.Schema)ViewData["Schema"];
+    var allowedEdit = (bool)ViewData["AllowedEdit"];
+    var allowedView = (bool)ViewData["AllowedView"];
+    var parentUUID = ViewContext.RequestContext.AllRouteValues()["parentUUID"];
+    var parentFolder=ViewContext.RequestContext.AllRouteValues()["parentFolder"];
+}
+@using(Html.BeginForm(ViewContext.RequestContext.AllRouteValues()["action"].ToString()
+    , ViewContext.RequestContext.AllRouteValues()["controller"].ToString()
+    , ViewContext.RequestContext.AllRouteValues()
+    , FormMethod.Post
+    , new RouteValueDictionary(new { enctype = "application/x-www-form-urlencoded" })))
+{
+    <table><tr>
+            <th>
+            <label for="Name">T&#234;n</label>
+            </th>
+            <td>
+            <input class='long' id="Name" name="Name" type="text" value="@(Model.Name ?? "")" />            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Name"], null)
+            
+            </td>          
+            </tr><tr>
+            <th>
+            <label for="Url">Url</label>
+            </th>
+            <td>
+            <input class='long' id="Url" name="Url" type="text" value="@(Model.Url ?? "")" />            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Url"], null)
+            
+            </td>          
+            </tr><tr>
+            <th>
+           
+            </th>
+            <td>
+            <input id='ByFilter' name="ByFilter" type="checkbox" @(Convert.ToBoolean(Model.ByFilter)?"checked":"") value="true"/>
+                                    <input type="hidden" value="false" name="ByFilter"/>
+            <label class="inline" for="ByFilter">Cho ph&#233;p t&#236;m kiếm</label>
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["ByFilter"], null)
+            </td>          
+            </tr><tr>
+            <th>
+            <label for="SortBy">Thứ tự</label>
+            </th>
+            <td>
+            <input class='long' id="SortBy" name="SortBy" type="text" value="@(Model.SortBy ?? "")"  data-val-number="The field SortBy must be a number." data-val="true"/>            
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["SortBy"], null)
+            
+            </td>          
+            </tr>
+            @if (allowedEdit) {
+                <tr>
+            <th>
+           
+            </th>
+            <td>
+            <input id='Published' name="Published" type="checkbox" @(Convert.ToBoolean(Model.Published)?"checked":"") value="true"/>
+                                    <input type="hidden" value="false" name="Published"/>
+            <label class="inline" for="Published">Published</label>
+            @Html.ValidationMessageForColumn(((ISchema)ViewData["Schema"])["Published"], null)
+            </td>          
+            </tr>
+            }
+    @Html.Action("Categories", ViewContext.RequestContext.AllRouteValues())
+    
+    </table>
+}
+<script>
+  function convertUrl(title){
+    var str= title.toLowerCase();
+    str= str.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g,"a");
+    str= str.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g,"e");
+    str= str.replace(/ì|í|ị|ỉ|ĩ/g,"i");
+    str= str.replace(/ò|ó|ọ|ỏ|õ|ô|ồ|ố|ộ|ổ|ỗ|ơ|ờ|ớ|ợ|ở|ỡ/g,"o");
+    str= str.replace(/ù|ú|ụ|ủ|ũ|ư|ừ|ứ|ự|ử|ữ/g,"u");
+    str= str.replace(/ỳ|ý|ỵ|ỷ|ỹ/g,"y");
+    str= str.replace(/đ/g,"d");
+    str= str.replace(/!|@@|\$|%|\^|\*|\(|\)|\+|\=|\<|\>|\?|\/|,|\.|\:|\'| |\"|\&|\#|\[|\]|~/g,"-");
+    str= str.replace(/-+-/g,"-"); //thay thế 2- thành 1-
+    str= str.replace(/^\-+|\-+$/g,"");//cắt bỏ ký tự - ở đầu và cuối chuỗi
+    return str;
+  }
+  $(document).ready(function(){
+    $("#Title,#Name").blur(function(){
+      $("#Url").val(convertUrl($(this).val()));
+      
+    });
+  });  
+</script>
